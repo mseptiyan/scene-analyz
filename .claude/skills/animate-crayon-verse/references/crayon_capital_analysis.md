@@ -25,7 +25,9 @@
 - Video utama (Wolf of Wall Street) hanya punya 4 gambar. Gaya keseluruhan dianalisis dari 108 frame isi + 36 thumbnail lintas channel, ditambah pengukuran kuantitatif (palet k-means, saturasi, luminance, ketebalan garis lewat run-length piksel gelap).
 
 ### 1.3 Keterbatasan (wajib dibaca sebelum membuat klaim)
-1. **File video penuh tidak dapat diakses.** Halaman watch YouTube mengembalikan halaman verifikasi bot (`google.com/sorry`) untuk IP container ini, dan host streaming video tidak diizinkan jaringan. Akibatnya:
+> **Pembaruan 2026-11-27:** file video utama (Wolf of Wall Street) kemudian didapat lewat Google Drive pemilik proyek dan dibongkar frame-by-frame: 29.774 frame diukur, hook 0–6 dtk dilihat per frame, 158 shot dengan timestamp nyata, transkrip narasi, dan analisis audio. Hasilnya ada di **`wolf_frame_analysis.md`**, yang **menggantikan §5 di bawah** untuk video utama. Keterbatasan poin 1–3 di bawah kini hanya berlaku untuk **35 video lain** di channel.
+
+1. **File video penuh tidak dapat diakses** (saat audit awal). Halaman watch YouTube mengembalikan halaman verifikasi bot (`google.com/sorry`) untuk IP container ini, dan host streaming video tidak diizinkan jaringan. Akibatnya:
    - **Hook 0–5 detik tidak teramati.** Analisis hook di §5.2 hanya mencakup *packaging* (judul+thumbnail). Standar hook di skill adalah [Rekomendasi].
    - **Breakdown shot-by-shot dengan timestamp nyata tidak mungkin dibuat.** Yang ada adalah katalog tipe shot dari 108 frame sampel.
    - **Gerak, timing, fps, transisi, dan kamera bergerak** hanya bisa disimpulkan dari jejak statis (smear, motion blur, multiples) dan diberi label [Inferensi].
@@ -191,7 +193,9 @@ Thumbnail memakai *render* lebih detail dan dramatis daripada isi video: lightin
 
 ---
 
-## 5. TAHAP 3: Analisis mendalam video utama
+## 5. TAHAP 3: Analisis mendalam video utama (versi sampling awal)
+
+> **Usang untuk video utama.** Analisis lengkap berbasis file video ada di `wolf_frame_analysis.md`. Bagian ini dipertahankan sebagai catatan metode sampling. Koreksi penting: posisi frame otomatis YouTube ternyata ≈4:08, 8:16, 12:25 sesuai sampel, tetapi struktur cerita sebenarnya 5 bab (lihat `wolf_frame_analysis.md` §3.1).
 
 **The Wolf of Wall Street Scam Explained Like You're 5**. Durasi 16:33 (993 dtk). Bahan: 3 frame isi + 1 thumbnail.
 

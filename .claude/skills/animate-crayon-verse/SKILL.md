@@ -31,6 +31,7 @@ Pakai skill ini setiap kali user meminta salah satu hal berikut:
 | Cek bug atau QC sebelum render | `references/quality_control_and_bug_detection.md`, `workflows/animation_quality_assurance.md`, `checklists/*` |
 | Prompt untuk generator gambar/video AI | §10 di bawah + `references/character_design_standards.md` §8 |
 | SOP produksi lengkap (17 standar: tujuan, standar, langkah, larangan, kriteria, checklist) | `references/animation_production_sop.md` |
+| Contoh nyata per shot (timing, kamera, transisi, hook) dari video referensi | `references/wolf_frame_analysis.md` |
 
 Untuk tugas besar (satu video penuh), ikuti **Workflow Ide → Final Render** di §9 secara berurutan.
 
@@ -66,7 +67,7 @@ Dari 12 prinsip (Thomas & Johnston, *The Illusion of Life*, 1981), urutan priori
 | 3 | **Exaggeration** | Ekspresi ekstrem: mata sparkle, gigi kertak, rambut berdiri, mulut kotak berteriak. |
 | 4 | **Appeal** | Bentuk sederhana dan bulat, proporsi chibi, wajah minimal tapi ekspresif. |
 | 5 | **Anticipation** | Squash kecil atau mundur sebelum aksi besar (lompat, lari, kaget). |
-| 6 | **Slow in / slow out** | Semua gerak kamera dan objek pakai easing. Tidak boleh ada gerak linear kecuali efek mekanis. |
+| 6 | **Slow in / slow out** | Easing untuk gerak karakter, pop-in, dan gerak kamera cepat. **Pengecualian:** drift zoom latar yang lambat (2–8%/dtk) memang dibuat berkecepatan konstan, sesuai referensi. |
 | 7 | **Follow-through & overlapping** | Dasi, rambut, ekor jas, dan kertas tetap bergerak setelah tubuh berhenti. |
 | 8 | **Squash & stretch** | Dipakai pada badan bean dan kepala saat jatuh/mendarat. Volume harus konstan. |
 | 9 | **Secondary action** | Kedip, napas, keringat, atau props kecil yang mendukung tanpa mencuri fokus. |
@@ -109,8 +110,9 @@ Spesifikasi lengkap, model sheet, turnaround, dan library ekspresi ada di `refer
 
 ## 5. Standar gerakan
 
-- **Frame rate:** 24 fps. Akting karakter **on twos** (12 drawing/detik). Kamera, motion graphics, dan efek **on ones**. *(Rekomendasi industri. Fps channel referensi tidak bisa diverifikasi dari frame diam.)*
-- **Teknik:** cut-out/rig (Moho, Toon Boom Harmony, atau After Effects + Duik/Rubberhose) untuk badan dan kepala, swap drawing untuk mulut/mata/alis, frame-by-frame untuk smear, efek, dan aksi cepat. Bukti di referensi: bentuk sangat konsisten antar-shot (indikasi rig), motion blur dan *multiples* (kaki ganda) pada aksi cepat. Teknik pastinya **tidak dapat dipastikan**.
+- **Frame rate:** video referensi **30 fps**, dengan tween tubuh dan kamera **on ones** [Teramati, 29.774 frame]. Untuk produksi baru: 24 atau 30 fps. Akting boleh on twos bila digambar tangan, tetapi kamera, efek, dan tween rig on ones.
+- **Limited animation yang disengaja [Teramati]:** ekspresi dan pose **di-swap instan** tanpa in-between (S5: dua pose bergantian tiap ±21 frame), sedangkan objek lepas (confetti, kertas uang, cairan) dianimasikan penuh on ones. Aksi besar sering terjadi *di cut* (pose sebelum → sesudah).
+- **Teknik:** cut-out/rig + tween (After Effects/Moho/Animate/Harmony) untuk badan, kepala, dan kamera; swap drawing untuk mulut/mata/alis; frame-by-frame atau partikel untuk efek. Bukti: interpolasi halus per frame, bentuk identik antar-shot, swap tanpa in-between, motion blur software. Software pastinya **tidak dapat dipastikan**.
 - **Hold tidak boleh mati.** Saat diam, karakter tetap kedip tiap 2–5 detik, napas (skala badan 1–2%, siklus 2–3 detik), dan sesekali menggeser alis.
 - **Timing referensi (24 fps):** kedip 4–6 frame; *take* kaget = antisipasi 3–4f → pose ekstrem 2f → settle 6–10f; pop-in objek 6–8f dengan overshoot 105–110%; jalan biasa 12f per langkah; lari 6–8f per langkah.
 - **Aksi cepat** memakai smear atau multiples 1–2 frame plus speed lines. Jangan memakai motion blur berat pada wajah (lihat QC di `references/crayon_capital_analysis.md` §6).
@@ -123,7 +125,7 @@ Detail ada di `references/character_animation_standards.md` dan `checklists/anim
 
 ## 6. Standar kamera dan komposisi
 
-- **Default:** kamera eye-level, frontal, *locked-off*. Gerak kamera hanya untuk makna: push-in pelan (skala 100→105–110% selama 3–6 detik) untuk penekanan, pan untuk mengungkap, dan shake 4–8 frame untuk impact.
+- **Default [Teramati]:** kamera eye-level frontal dengan **drift zoom lambat berkecepatan konstan** (median 4%/dtk, rentang 2–8%/dtk). Di video referensi, 94 dari 158 shot memakai zoom: 70 pull-out dan 24 push-in; 52 locked-off; 12 pan/tilt. Pull-out dipakai untuk mengungkap konteks (penonton, kerumunan); push-in untuk penekanan. Shake 4–8 frame untuk impact. **Spotlight radial elips di latar** menandai subjek.
 - **Kosakata shot gaya ini** (semuanya teramati di referensi):
   1. Establishing wide (lokasi, kendaraan, gedung, peta).
   2. **Lineup**: 3–5 karakter sejajar menghadap kamera di balik meja atau pagar.
@@ -151,7 +153,7 @@ Detail ada di `references/cinematography_and_composition.md`.
 
 ## 8. Standar transisi dan QC
 
-- **Transisi default: hard cut on narration beat.** Gunakan match cut atau object/motion transition (whip, wipe oleh objek, zoom ke dalam objek) untuk pergantian bab. Gunakan dip-to-black untuk lompatan waktu besar. Time card ("30 minutes later...") memakai teks italic di pojok kanan bawah.
+- **Transisi default: hard cut on narration beat** [Teramati: 125/157 cut adalah hard cut 1 frame, jatuh median 0,22 dtk sebelum frasa]. **Kartu hitam dengan teks tulisan tangan write-on** untuk judul bab, lompatan waktu, dan punchline (25 cut). Callback/bookend di akhir video. Gunakan match cut atau object/motion transition (whip, wipe oleh objek, zoom ke dalam objek) untuk pergantian bab. Gunakan dip-to-black untuk lompatan waktu besar. Time card ("30 minutes later...") memakai teks italic di pojok kanan bawah.
 - **Segmen sponsor** yang gayanya berbeda harus dibungkus bumper keluar-masuk agar tidak terasa sebagai glitch.
 - **QC wajib 3 lapis:** (1) self-check animator per shot, (2) review sutradara di animatic dan blocking, (3) final QC full-pass sebelum render. Pakai `workflows/animation_quality_assurance.md` dan keempat checklist. Bedakan *actual error* / *minor imperfection* / *stylistic choice* / *perlu dicek*.
 
@@ -208,7 +210,8 @@ Selalu cek hasil AI dengan `checklists/character_consistency_checklist.md`. Gene
 - **Jangan membaca semua file sekaligus.** Buka hanya file pada tabel §1 yang relevan dengan tugas.
 - Angka-angka di skill ini diberi label sumber: **[Teramati]** = diukur atau dilihat dari frame referensi, **[Standar industri]** = dari literatur/praktik studio, **[Rekomendasi]** = keputusan desain skill ini. Jangan menyajikan [Rekomendasi] sebagai fakta tentang channel referensi.
 - Data mentah audit ada di `references/data/channel_audit.csv` (36 video: views, likes, rasio, tanggal, sumber data).
-- Keterbatasan riset (tidak ada akses video penuh, audio, atau 5 detik pertama) tercatat di `references/crayon_capital_analysis.md` §1.3. Baca bagian itu sebelum membuat klaim tentang channel referensi.
+- **Analisis frame-by-frame video utama** (158 shot dengan timestamp, hook per frame, gerak terukur, transkrip, audio, bug) ada di `references/wolf_frame_analysis.md`, dengan data mentah `references/data/wolf_shots.csv` dan `wolf_transcript.tsv`. Ini sumber bukti paling kuat di skill ini.
+- Keterbatasan riset untuk 35 video lain (hanya sampling frame) tercatat di `references/crayon_capital_analysis.md` §1.3.
 - Contoh output lengkap untuk 10 jenis tugas (konsep, brief, storyboard, shot list, direction, kamera, spacing, konsistensi, bug, QC) ada di `references/skill_validation.md`. Pakai sebagai contoh format.
 
 ## 12. Format output standar

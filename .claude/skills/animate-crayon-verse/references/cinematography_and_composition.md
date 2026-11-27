@@ -50,7 +50,15 @@ Karena kepala ≈ 30% tinggi tubuh, definisi shot disesuaikan:
 | Whip pan | 4–6 frame + motion blur | transisi energetik |
 | Zoom ke objek (transisi) | 8–16 frame | masuk ke "dunia" dalam objek (layar, peta) |
 
-Aturan: maksimal **1 gerak kamera bermotivasi per shot**. Shot tanpa motivasi gerak tetap *locked-off*. Ini sesuai dengan referensi yang didominasi framing statis [Inferensi dari frame sampel].
+Aturan: maksimal **1 gerak kamera bermotivasi per shot**.
+
+**Temuan video referensi (diukur per frame, `wolf_frame_analysis.md` §3.3) [Teramati]:**
+- 60% shot memakai **drift zoom lambat** (pull-out 70, push-in 24 dari 158), 33% locked-off, 8% pan/tilt.
+- Kecepatan zoom median **4%/dtk** (p25 2,4%, p75 8,2%).
+- Kecepatan **hampir konstan** sepanjang shot (rasio awal/tengah/akhir 0,92/1/0,91). Drift ini berjalan linear, bukan ease-in-out. Ease tetap dipakai untuk gerak kamera yang *cepat* (whip, shake, zoom transisi).
+- Pull-out paling sering dipakai untuk **reveal konteks** (penonton bersorak S5, kerumunan, lokasi).
+- **Kamera sebagai transisi:** teks judul ditulis di langit lalu kamera tilt turun ke jalan (S7); zoom masuk ke dalam kepala tokoh (S93→S94).
+- **Spotlight radial** (elips konsentris terang di belakang tokoh) adalah alat staging paling sering (S23, S27, S31, S66, S100).
 
 ## 4. Komposisi
 1. **Satu titik fokus per frame.** Gunakan kontras warna (berwarna vs abu), nilai (terang vs gelap), posisi, dan ukuran.

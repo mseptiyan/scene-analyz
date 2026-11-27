@@ -14,7 +14,15 @@ Kanvas 1920×1080, **24 fps**. Label: [Teramati] / [Inferensi] / [Standar indust
 | Aksi cepat (lari, jatuh, ayunan) | Smear/multiples digambar 1–2 frame | frame-by-frame di atas rig |
 | Efek (asap, api, confetti) | Straight-ahead atau partikel | AE (CC Particle World/Trapcode), Harmony FX |
 
-**[Inferensi]** Referensi kemungkinan memakai rig + rubber-hose: bentuk identik antar-shot, tungkai garis yang menekuk mulus, multiples pada lari (Wolf ≈8:16), motion blur komposit (Great Depression ≈8:14). Tool pastinya tidak dapat diverifikasi.
+**[Teramati frame-by-frame, `wolf_frame_analysis.md` §3.3 & §3.5]** Video referensi (30 fps):
+- **Tween on ones** untuk tubuh, tungkai, dan kamera: tidak ada pola hold on twos yang konsisten (S14 jalan, S99 diseret).
+- **Swap pose instan tanpa in-between** sebagai akting: S5 dua pose bergantian tiap ±21 frame (perubahan piksel 16% hanya di frame swap, 0,2% di frame lain).
+- **Swap mulut** tiap 2–4 frame saat dialog (S37); teks dialog berganti dalam 1 frame tepat di kata ("Boom.").
+- **Tremble per frame** untuk marah atau takut (S66).
+- **Objek lepas dianimasikan penuh** on ones: confetti (S5), kertas uang melayang lalu jatuh berayun selama ±1,5 dtk (S97).
+- Aksi besar sering terjadi **di cut**: S96 broker lemas → S97 sudah tumbang, tanpa frame jatuh.
+
+Kesimpulan: rig/cut-out + tween + swap drawing. Software pastinya tidak dapat diverifikasi.
 
 ## 2. Frame rate dan exposure
 - Akting karakter **on twos** (setiap pose ditahan 2 frame). Hasilnya rasa "kartun" dan hemat.

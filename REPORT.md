@@ -21,15 +21,17 @@ Tanggal: 2026-11-26 · Lokasi skill: [`.claude/skills/animate-crayon-verse/`](.c
 - **Pipeline acuan:** pre-production (konsep → naskah → design → storyboard → animatic terkunci) → production (aset → rig → layout → blocking → polish → FX → lighting) → post (comp → grade → edit → sound → QC → render), diadaptasi untuk explainer yang dipimpin VO.
 
 ## C. Deep Video Analysis
-**Metode jujur:** sampling frame, bukan frame-by-frame. Bahannya 144 gambar resmi YouTube (thumbnail + 3 frame otomatis 1280×720 per video), ditambah pengukuran kuantitatif palet, saturasi, luminance, dan ketebalan garis. Video penuh **tidak dapat diakses** (halaman watch YouTube memblokir IP container dengan verifikasi bot), sehingga:
-- **Hook 0–5 detik:** tidak teramati. Yang dianalisis adalah packaging hook (judul pop-culture + janji ELI5; thumbnail tokoh tenang berwarna di tengah pesta kerumunan abu).
-- **Shot-by-shot:** diganti breakdown 4 frame sampel video utama (≈4:08, ≈8:16, ≈12:25, thumbnail) dan katalog 10 tipe shot dari 108 frame lintas channel.
-- **Karakter:** kepala lingkaran sempurna, badan bean = pakaian, tungkai garis (rubber-hose), tanpa leher, mata oval kecil, alis mengambang; hierarki warna (hero berkulit, figuran putih, kerumunan abu); identitas lewat siluet dan props.
-- **Motion:** [inferensi] rig cut-out + rubber-hose, smear/multiples digambar, motion blur komposit. Fps tidak dapat diverifikasi.
-- **Kamera:** dominan locked-off eye-level frontal; lineup, OTS, split-screen, insert infographic.
-- **Lighting/color:** outline `#171415`–`#1C261D` ±5–6 px @720p; shadow sabit 1 tone; 1 hue per lokasi; sorotan dan spotlight atmosferik; saturasi median 0,29, luminance 0,50; tren makin sinematik dan gelap di 2026.
-- **Transisi:** tidak dapat diverifikasi. Jejak teramati: split panel, time card.
-- **Bug detection:** 9 temuan terklasifikasi. Tidak ada error kategori A yang pasti. Ada 3 kategori D (pixelasi motion blur pada wajah, label/teks terpotong di frame transisi) dan beberapa stylistic choice (smear, segmen sponsor foto-realistis, thumbnail lebih detail).
+**Pembaruan 2026-11-27: frame-by-frame dari file video asli** (via Google Drive). Hasil lengkap ada di `references/wolf_frame_analysis.md`.
+- **Metode:** semua **29.774 frame** (30 fps, 16:32) diukur otomatis: selisih piksel, warna, dan gerak kamera. Yang saya lihat langsung: **180 frame hook (0–6 dtk)**, ±4 frame di **157 titik potong**, frame awal/tengah/akhir di **158 shot**, dan **6 sekuens aksi** per frame. Narasi ditranskrip Whisper dengan timestamp per kata (2.470 kata). Saya tidak melihat semua frame satu per satu dengan mata.
+- **Hook:** f0 langsung menampilkan tokoh **anonim berwajah abu** memegang "$1". Lima hard cut dalam 18 dtk ($1 → gunung uang → penjara → koran Hollywood → panggung). Wajah tokoh berwarna tepat saat namanya disebut (10,4 dtk). Pull-out mengungkap penonton bersorak di kalimat "People still cheer for him".
+- **Shot-by-shot:** tabel 158 shot dengan timestamp, scene, karakter, aksi, ekspresi, kamera terukur, warna, prinsip, transisi, narasi, dan kualitas.
+- **Pacing:** shot median 5,2 dtk · 9,5 shot/menit · narasi 149 kata/menit · cut median 0,22 dtk sebelum frasa.
+- **Motion:** tween on ones + **swap pose instan tanpa in-between** (limited animation) + objek lepas dianimasikan penuh (confetti, kertas uang). Kesimpulan teknik: rig/cut-out + tween; software tidak dapat dipastikan.
+- **Kamera:** 94/158 shot memakai drift zoom lambat **berkecepatan konstan** (median 4%/dtk, dominan pull-out), 52 locked-off.
+- **Lighting/color:** spotlight radial elips di latar sebagai alat staging; palet bergeser per bab (cerah → kantor → pesta → krisis → abu gelap → kembali merah panggung).
+- **Transisi:** 125/157 hard cut 1 frame, 25 cut ke/dari kartu hitam write-on, 1 fade, 0 dissolve; ada callback dan bookend.
+- **Bug:** kontras teks putih di langit biru muda rendah (minor); balon teks menumpuk tak terbaca; true peak audio −0,4 dBFS (perlu cek teknis). Satu dugaan "teks ganda" ternyata artefak lembar kontak saya, bukan bug video.
+- **Skill diperbarui** berdasarkan data ini: SKILL.md, kamera, animasi karakter, transisi/pacing, standar hook, QC.
 
 ## D. Animation Production SOP
 - **17 SOP**: visual direction, character design, consistency, environment, storyboard, composition, camera, timing, movement, facial expression, lighting, grading, transition, sound, VFX, QA, final render. Masing-masing berisi tujuan, standar, langkah, larangan, kriteria, dan checklist (`references/animation_production_sop.md`).
@@ -38,9 +40,9 @@ Tanggal: 2026-11-26 · Lokasi skill: [`.claude/skills/animate-crayon-verse/`](.c
 
 ## E. Skill Creation
 - **Lokasi:** `.claude/skills/animate-crayon-verse/` di repo ini. Otomatis terbaca oleh Claude Code di setiap sesi yang membuka repo ini (cloud maupun laptop).
-- **File (21):**
+- **File (24):**
   - `SKILL.md`
-  - `references/`: animation_fundamentals, professional_animation_pipeline, character_design_standards, character_animation_standards, cinematography_and_composition, lighting_and_color, transition_and_editing, quality_control_and_bug_detection, crayon_capital_analysis, **animation_production_sop** (tambahan), **skill_validation** (tambahan), `data/channel_audit.csv`
+  - `references/`: animation_fundamentals, professional_animation_pipeline, character_design_standards, character_animation_standards, cinematography_and_composition, lighting_and_color, transition_and_editing, quality_control_and_bug_detection, crayon_capital_analysis, **animation_production_sop** (tambahan), **skill_validation** (tambahan), `data/channel_audit.csv`, **wolf_frame_analysis** + `data/wolf_shots.csv` + `data/wolf_transcript.tsv` (frame-by-frame)
   - `workflows/`: pre_production, production, post_production, animation_quality_assurance
   - `checklists/`: character_consistency, scene_quality, animation_motion, final_render
 - **Kemampuan:** konsep, character brief, storyboard, shot list, animation direction, kamera, timing/spacing, konsistensi karakter, deteksi bug, QC, template prompt gambar AI, adaptasi 9:16.

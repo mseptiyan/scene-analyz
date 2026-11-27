@@ -1,6 +1,13 @@
 # Transition, Editing, Text & Sound: Crayon Verse
 
-> **Keterbatasan riset.** Transisi dan audio channel referensi **tidak dapat diamati** (hanya frame diam yang tersedia). Yang teramati adalah jejak statis: split-screen di tengah wipe, time card, label terpotong yang mungkin berada di tengah animasi masuk. Standar di bawah adalah [Standar industri] + [Rekomendasi], dengan bukti teramati ditandai.
+> **Data terukur dari video referensi** (Wolf of Wall Street, 29.774 frame, lihat `wolf_frame_analysis.md` §3.3 & §3.7):
+> - 157 titik potong: **125 hard cut 1 frame**, 25 cut ke/dari kartu hitam berteks, 1 fade-in dari hitam, 6 transisi efek (zoom ke dalam kepala, panel geser), **0 cross dissolve**.
+> - Cut jatuh **median 0,22 dtk sebelum** frasa narasi berikutnya; 78% ≤ 0,5 dtk dari awal frasa.
+> - Shot median **5,2 dtk** (p10 2,1 · p90 11,7) · 9,5 shot/menit · narasi **149 kata/menit**, jeda antarfrasa median 0,64 dtk.
+> - Kartu teks: hitam, teks tulisan tangan putih **write-on huruf demi huruf** sinkron narasi; dipakai untuk 5 judul bab + punchline.
+> - Audio master: −17,7 LUFS integrated, LRA 3,7 LU, true peak −0,4 dBFS.
+>
+> Standar di bawah menggabungkan data ini dengan [Standar industri] + [Rekomendasi].
 
 ---
 
@@ -18,8 +25,9 @@
 
 Larangan: transisi preset NLE (cube spin, page curl, glitch generik) karena keluar dari gaya.
 
-## 2. Pacing [Rekomendasi]
-- Durasi shot rata-rata **2,5–4 detik**. Shot infographic boleh 4–7 detik, montase 0,5–1,5 detik.
+## 2. Pacing [Teramati + Rekomendasi]
+- **Satu frasa narasi = satu shot.** Cut 0,1–0,3 dtk *sebelum* frasa dimulai (referensi: median 0,22 dtk).
+- Durasi shot: referensi median **5,2 dtk**. Hook dan montase lebih cepat (1,5–3,6 dtk). Shot dialog/infografik boleh 8–12 dtk asal ada gerak kamera atau pop-in di dalamnya.
 - **Aturan perubahan visual:** maksimal 6–8 detik tanpa perubahan visual bermakna (cut, aksi baru, pop-in, gerak kamera).
 - **Bab:** setiap 2–4 menit ada *re-hook* visual (pertanyaan, angka mengejutkan, cliffhanger kecil).
 - VO 130–150 kata/menit; jeda 0,3–0,6 detik setelah angka penting.

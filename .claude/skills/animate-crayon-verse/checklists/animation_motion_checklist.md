@@ -37,7 +37,7 @@
 
 ## Kamera
 - [ ] Maksimal 1 gerak kamera bermotivasi per shot
-- [ ] Push-in 100→105–110% selama 3–6 detik dengan ease-in-out
+- [ ] Push-in penekanan 100→105–110% selama 3–6 detik dengan ease-in-out; drift zoom latar 2–8%/dtk boleh linear
 - [ ] Shake 4–8 frame dengan decay, hanya untuk impact
 - [ ] Outline tidak menebal/menipis saat zoom (stroke scaling dikompensasi)
 

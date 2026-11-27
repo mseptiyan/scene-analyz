@@ -47,7 +47,7 @@ Prinsip-prinsip ini awalnya untuk animasi tangan, tetapi tetap berlaku di animas
 **Penerapan:**
 - Default easing untuk karakter: ease-in-out (kurva bezier ±33%/33%).
 - Untuk pop-in grafis: ease-out kuat (cepat masuk, pelan berhenti) + overshoot.
-- Kamera: ease-in-out panjang. Gerak kamera linear dilarang, kecuali tracking kendaraan dengan kecepatan konstan.
+- Kamera: ease-in-out untuk gerak bermakna (push-in penekanan, whip, zoom transisi). **Drift zoom lambat** (2–8%/dtk) di sepanjang shot dibuat **kecepatan konstan**, sesuai pengukuran video referensi (rasio kecepatan awal/tengah/akhir 0,92/1/0,91).
 - *Spacing chart* wajib ditulis di blocking untuk aksi penting.
 
 **Cara menulis spacing chart (notasi Williams):**

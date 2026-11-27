@@ -35,21 +35,26 @@ Gate: jangan masuk ke production sebelum animatic disetujui.
 4. Target 130–150 kata per menit VO.
 5. Fact-check, lalu kunci naskah (`naskah_final.md`).
 
-## 3. Standar hook (0–30 detik) [Rekomendasi]
-> Hook channel referensi tidak dapat diamati (lihat `references/crayon_capital_analysis.md` §1.3). Standar ini berasal dari praktik explainer dan retensi YouTube.
+## 3. Standar hook (0–20 detik) [Teramati pada video referensi, dianalisis frame-by-frame]
+> Pola ini diambil dari 180 frame pertama video referensi (`references/wolf_frame_analysis.md` §3.2), lalu dijadikan template orisinal.
 
-| Detik | Isi | Visual |
-|---|---|---|
-| 0–2 | Pernyataan/angka paling mengejutkan | CU tokoh utama dengan ekspresi kuat; pop-in angka |
-| 2–5 | Kontras atau paradoks ("…tapi ia tidak pernah menjual apa pun") | Cut ke visual kontras (split-screen atau reaksi kerumunan) |
-| 5–15 | Pertanyaan inti / curiosity gap | Maskot reaksi atau tokoh bingung + teks pertanyaan |
-| 15–30 | Janji: apa yang akan dipahami penonton | Montase cepat 3–4 shot dari isi video (preview) |
+**Formula "Kontradiksi Beruntun + Reveal":**
+| Detik | Isi narasi | Visual (referensi) | Template untuk proyek baru |
+|---|---|---|---|
+| 0–2 | Aksi + objek kecil ("He lied about **$1** stock,") | f0 langsung: tokoh **anonim** (wajah abu) memegang objek kecil itu, latar putih | Tokoh tanpa identitas + 1 objek simbol, latar polos |
+| 2–3,5 | Eskalasi ("made millions,") | Hard cut: tokoh di atas gunung uang | Hard cut ke versi "besar" dari objek |
+| 3,5–6 | Twist 1 ("only served 22 months in jail.") | Hard cut: tokoh di balik jeruji | Hard cut ke konsekuensi yang kontras |
+| 6–9 | Twist 2 ("Hollywood turned his crimes into a blockbuster.") | Koran meluncur masuk | Objek bukti/berita masuk frame |
+| 9–18 | Reveal + curiosity gap ("This is the story of **[NAMA]**… People still cheer for him.") | Wajah tokoh **berwarna tepat saat nama disebut**; panggung, confetti; pull-out ungkap penonton bersorak | Identitas dibuka di kata nama + kamera mundur mengungkap ironi |
+| 18–20 | — | Kartu hitam judul bab 1 (write-on) | Kartu judul bab |
 
 Aturan hook:
 - Frame pertama sudah berisi karakter dan emosi. Tidak ada logo/intro.
 - Konteks dipahami dalam ≤ 5 detik (siapa + apa + kenapa penting).
 - Visual hook harus selaras dengan thumbnail (penonton mengenali "janji" thumbnail).
-- Cut setiap 1–2,5 detik di 15 detik pertama.
+- Cut setiap 1,5–3,6 detik di 18 detik pertama (referensi: 5 shot/18 dtk), tiap cut 0,1–0,25 dtk sebelum kata kunci.
+- Sembunyikan identitas (wajah abu/siluet) sampai nama disebut, lalu reveal di frame kata itu.
+- Simpan adegan hook untuk di-callback di akhir (bookend).
 
 ## 4. Script breakdown → shot list
 1. Pecah naskah per kalimat atau frasa → 1 baris per shot (rata-rata 2,5–4 detik).

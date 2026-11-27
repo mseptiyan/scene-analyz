@@ -65,6 +65,13 @@
 9. **Upload private ke YouTube** → artefak kompresi (terutama blur, gradien, confetti).
 
 ## 4. Pelajaran dari referensi
+**Dari analisis frame-by-frame video utama (`wolf_frame_analysis.md` §3.8):**
+- Teks putih di latar terang (langit biru muda) kontrasnya ≈1,3:1, sulit dibaca (minor, S3). → Teks putih wajib ber-stroke gelap, atau gunakan teks gelap di latar terang.
+- Tumpukan banyak balon kecil tidak terbaca di 720p. → Batasi 3 balon terbaca per frame; sisanya bentuk abstrak.
+- True peak audio −0,4 dBFS. → Master ≤ −1 dBTP.
+- Hati-hati saat QC dengan lembar kontak: dua frame bersebelahan bisa terlihat seperti "teks ganda". Selalu verifikasi di frame utuh sebelum melapor bug.
+
+**Dari sampling 36 video:**
 - Motion blur berat pada tokoh jatuh bisa menghasilkan blok pixel setelah kompresi (Great Depression ≈8:14, kategori D). → Pakai smear tergambar untuk wajah, dan batasi blur pada badan/tungkai.
 - Segmen sponsor foto-realistis memutus gaya (kategori C). → Wajib dibungkus bumper.
 - Label dan teks di tepi frame bisa tampak terpotong pada frame transisi (kategori D). → Cek frame tengah transisi, bukan hanya frame akhir.
