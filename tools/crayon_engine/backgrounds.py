@@ -11,9 +11,17 @@ from .draw import INK, ellipse, fill_stroke, line, poly, rrect, set_color
 M = 260  # margin drawn beyond the stage so camera shake never shows an edge
 
 
+BG_DESAT = 0.0  # global background desaturation (QC finding: colour saturation above the reference)
+
+
+def _bg(c):
+    from .core import desat
+    return desat(c, BG_DESAT) if BG_DESAT else c
+
+
 def fill_all(ctx, c):
     ctx.rectangle(-M, -M, W + 2 * M, H + 2 * M)
-    set_color(ctx, c)
+    set_color(ctx, _bg(c))
     ctx.fill()
 
 
@@ -23,7 +31,7 @@ def radial_spot(ctx, cx, cy, rx, ry, outer, inner, n=6):
         k = i / (n - 1)
         s = 1.0 - 0.78 * k
         ellipse(ctx, cx, cy, rx * s, ry * s)
-        set_color(ctx, mix(outer, inner, k))
+        set_color(ctx, _bg(mix(outer, inner, k)))
         ctx.fill()
 
 
@@ -48,8 +56,8 @@ def gold_radial(f, cx=W / 2, cy=H * 0.48):
 
 def night_grid(f):
     ctx = f.ctx
-    fill_all(ctx, "#0F2233")
-    radial_spot(ctx, W * 0.55, H * 0.45, 1300, 760, "#0F2233", "#1A3D57", n=5)
+    fill_all(ctx, "#21425E")
+    radial_spot(ctx, W * 0.55, H * 0.45, 1300, 760, "#21425E", "#3A6688", n=5)
 
 
 def crisis_desk(f, seed=2):
@@ -120,7 +128,7 @@ def blue_wall(f):
 def launch_pad_night(f, seed=7, searchlights=1.0, t=0.0):
     """Launch pad at night: blue-violet sky bands, stars, tower, rocket, two searchlights in a 'V'."""
     ctx = f.ctx
-    bands = ["#1E2448", "#2A3060", "#383E78", "#4A4E8C"]
+    bands = ["#2A3260", "#3A4278", "#4A5290", "#5C62A2"]
     fill_all(ctx, bands[0])
     for i, c in enumerate(bands[1:], 1):
         ctx.rectangle(-M, H * (0.18 * i) - 20, W + 2 * M, H)
@@ -157,10 +165,10 @@ def launch_pad_night(f, seed=7, searchlights=1.0, t=0.0):
     rocket(f, W * 0.36, H * 0.47, 520, body="#D9DAE6", fin="#9A4A63")
     # ground + stage
     ctx.rectangle(-M, H * 0.78, W + 2 * M, H)
-    set_color(ctx, "#2E3060")
+    set_color(ctx, "#3A3C78")
     ctx.fill()
     line(ctx, [(-M, H * 0.78), (W + M, H * 0.78)], f.lw(5))
-    radial_spot(ctx, W / 2, H * 0.86, 560, 120, "#3A3C70", "#F0D37A", n=6)
+    radial_spot(ctx, W / 2, H * 0.86, 560, 120, "#474A88", "#F0D37A", n=6)
 
 
 def card(f, color="#000000"):
@@ -186,3 +194,59 @@ def light_shaft(f, x0, x1, top, bottom, spread=260, alpha=0.14, color="#FFFFFF")
     poly(ctx, [(x0, top), (x1, top), (x1 + spread, bottom), (x0 + spread * 0.4, bottom)])
     set_color(ctx, color, alpha)
     ctx.fill()
+
+
+def space(f, seed=3, t=0.0):
+    ctx = f.ctx
+    fill_all(ctx, "#2A3166")
+    radial_spot(ctx, W * 0.6, H * 0.45, 1300, 800, "#2A3166", "#4A5299", n=5)
+    rnd = random.Random(seed)
+    for _ in range(110):
+        x, y = rnd.uniform(-M, W + M), rnd.uniform(-M, H + M)
+        tw = 0.5 + 0.5 * math.sin(t * 2.3 + x * 0.7)
+        ellipse(ctx, x, y, 2.4, 2.4)
+        set_color(ctx, "#EDEBFF", 0.3 + 0.5 * tw)
+        ctx.fill()
+
+
+def day_pad(f):
+    """Launch pad in daylight (same layout as launch_pad_night, light sky)."""
+    ctx = f.ctx
+    fill_all(ctx, "#8FC9E6")
+    radial_spot(ctx, W / 2, H * 0.5, 1300, 760, "#8FC9E6", "#D6EEF8", n=5)
+    ctx.rectangle(-M, H * 0.78, W + 2 * M, H)
+    set_color(ctx, _bg("#B9A98A"))
+    ctx.fill()
+    line(ctx, [(-M, H * 0.78), (W + M, H * 0.78)], f.lw(5))
+
+
+def office(f, hue="#5B86A8"):
+    ctx = f.ctx
+    fill_all(ctx, hue)
+    radial_spot(ctx, W / 2, H * 0.5, 1200, 700, hue, mix(hue, "#FFFFFF", 0.45), n=6)
+    for x in (260, 1660):
+        rrect(ctx, x - 150, 170, 300, 360, 10)
+        fill_stroke(ctx, "#CFE6F5", f.lw(7))
+        line(ctx, [(x, 170), (x, 530)], f.lw(5))
+        line(ctx, [(x - 150, 350), (x + 150, 350)], f.lw(5))
+    ctx.rectangle(-M, H * 0.84, W + 2 * M, H)
+    set_color(ctx, _bg(mix(hue, "#000000", 0.35)))
+    ctx.fill()
+    line(ctx, [(-M, H * 0.84), (W + M, H * 0.84)], f.lw(6))
+
+
+def night_window(f):
+    ctx = f.ctx
+    fill_all(ctx, "#33415E")
+    radial_spot(ctx, W * 0.5, H * 0.5, 1200, 700, "#33415E", "#4E6590", n=5)
+    rrect(ctx, 1240, 140, 520, 420, 10)
+    fill_stroke(ctx, "#0E1526", f.lw(8))
+    ellipse(ctx, 1600, 260, 60, 60)
+    set_color(ctx, "#F3E6A8")
+    ctx.fill()
+    line(ctx, [(1500, 140), (1500, 560)], f.lw(7))
+    line(ctx, [(1240, 350), (1760, 350)], f.lw(7))
+    ctx.rectangle(-M, H * 0.82, W + 2 * M, H)
+    set_color(ctx, _bg("#2A3656"))
+    ctx.fill()
+    line(ctx, [(-M, H * 0.82), (W + M, H * 0.82)], f.lw(6))

@@ -83,7 +83,19 @@ def loudnorm(src: str, dst: str, I: float = -14.0, TP: float = -1.2, LRA: float 
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", tmp, "-af", af,
                     "-ar", "48000", "-c:a", "pcm_s24le", dst], check=True)
     os.remove(tmp)
-    return measure(dst)
+    m = measure(dst)
+    # safety loop: the linear pass can lift peaks a little; re-limit until TP <= -1.0 dBTP
+    for k in range(3):
+        if m["true_peak_dbtp"] is None or m["true_peak_dbtp"] <= -1.0:
+            break
+        lim2 = 10 ** ((TP - 0.8 - 0.4 * k) / 20)
+        tmp2 = dst + ".fix.wav"
+        subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", dst, "-af",
+                        f"aresample=192000,alimiter=limit={lim2:.4f}:attack=1:release=60:level=false,aresample=48000",
+                        "-c:a", "pcm_s24le", tmp2], check=True)
+        os.replace(tmp2, dst)
+        m = measure(dst)
+    return m
 
 
 def measure(path: str) -> dict:
@@ -213,3 +225,46 @@ def build(cfg_path: str, out_dir: str) -> None:
 
 if __name__ == "__main__":
     build(sys.argv[1], sys.argv[2])
+
+
+def realign_per_line(out_dir: str, model_size: str = "small.en", pad: float = 0.08) -> dict:
+    """More robust alignment for long VO: transcribe each script line's own segment (whisper can
+    skip words on long-form audio), map words with difflib inside the line, offset to the master
+    timeline, then pin/clamp to the line bounds. Rewrites words.json."""
+    from faster_whisper import WhisperModel
+    from scipy.signal import resample_poly
+
+    lines = [l for l in json.load(open(os.path.join(out_dir, "lines.json"))) if l["say"]]
+    aud, sr = sf.read(os.path.join(out_dir, "vo_master.wav"), dtype="float32")
+    if aud.ndim > 1:
+        aud = aud.mean(axis=1)
+    g = np.gcd(int(sr), 16000)
+    model = WhisperModel(model_size, device="cpu", compute_type="int8")
+    words, stats = [], {"whisper": 0, "interp": 0}
+    for lm in lines:
+        a = max(0, int((lm["start"] - pad) * sr))
+        b = min(aud.size, int((lm["end"] + pad) * sr))
+        seg = resample_poly(aud[a:b], 16000 // g, int(sr) // g).astype(np.float32)
+        segs, _ = model.transcribe(seg, word_timestamps=True, language="en", beam_size=5,
+                                   condition_on_previous_text=False)
+        off = a / sr
+        rec = [(w.word.strip(), w.start + off, w.end + off) for s in segs for w in s.words]
+        script = lm["say"].replace("I.P.O.", "IPO").split()
+        sm = difflib.SequenceMatcher(a=[_norm_word(w) for w in script], b=[_norm_word(r[0]) for r in rec], autojunk=False)
+        times = [None] * len(script)
+        for blk in sm.get_matching_blocks():
+            for k in range(blk.size):
+                times[blk.a + k] = (rec[blk.b + k][1], rec[blk.b + k][2])
+        for i, w in enumerate(script):
+            t = times[i]
+            if t is None:
+                prev = next((times[j] for j in range(i - 1, -1, -1) if times[j]), (lm["start"], lm["start"]))
+                nxt = next((times[j] for j in range(i + 1, len(times)) if times[j]), (lm["end"], lm["end"]))
+                t, src = (prev[1], max(prev[1], nxt[0])), "interp"
+            else:
+                src = "whisper"
+            stats[src] += 1
+            words.append({"i": len(words), "word": w, "line": lm["id"], "start": round(t[0], 3), "end": round(t[1], 3), "src": src})
+    words = clamp_to_lines(words, lines)
+    json.dump(words, open(os.path.join(out_dir, "words.json"), "w"), indent=1)
+    return stats

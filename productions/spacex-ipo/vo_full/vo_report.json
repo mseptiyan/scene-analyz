@@ -1,0 +1,61 @@
+{
+ "voice": "am_michael",
+ "speed": 0.98,
+ "chapters": {
+  "ch00_hook": {
+   "integrated_lufs": -14.2,
+   "true_peak_dbtp": -1.2,
+   "duration_s": 23.14,
+   "words": 59,
+   "wpm_speech_only": 167.0,
+   "wpm_incl_pauses": 153.0
+  },
+  "ch01": {
+   "integrated_lufs": -14.3,
+   "true_peak_dbtp": -1.2,
+   "duration_s": 75.11,
+   "words": 187,
+   "wpm_speech_only": 164.7,
+   "wpm_incl_pauses": 149.4
+  },
+  "ch02": {
+   "integrated_lufs": -14.0,
+   "true_peak_dbtp": -1.3,
+   "duration_s": 141.03,
+   "words": 357,
+   "wpm_speech_only": 166.5,
+   "wpm_incl_pauses": 151.9
+  },
+  "ch03": {
+   "integrated_lufs": -14.3,
+   "true_peak_dbtp": -1.2,
+   "duration_s": 66.21,
+   "words": 165,
+   "wpm_speech_only": 165.3,
+   "wpm_incl_pauses": 149.5
+  },
+  "ch04": {
+   "integrated_lufs": -14.3,
+   "true_peak_dbtp": -1.2,
+   "duration_s": 177.61,
+   "words": 454,
+   "wpm_speech_only": 167.1,
+   "wpm_incl_pauses": 153.4
+  },
+  "ch05": {
+   "integrated_lufs": -14.3,
+   "true_peak_dbtp": -1.2,
+   "duration_s": 105.02,
+   "words": 252,
+   "wpm_speech_only": 157.8,
+   "wpm_incl_pauses": 144.0
+  }
+ },
+ "master": {
+  "integrated_lufs": -14.3,
+  "true_peak_dbtp": -1.2
+ },
+ "whisper_text": "One company sold tiny slices of itself for $135 each. It raised $75 billion. In three days, the stock jumped two thirds. Then it lost over half its value. This is the story of the SpaceX IPO, the biggest the world had ever seen. And the wildest part, the next giants are already lining up. Imagine a company is a giant pizza. Every share is one tiny slice. For 24 years, SpaceX only sold its slices to a private club. Founders, employees, and big investors. Everyone else was stuck behind the rope. An IPO, or initial public offering, is the day the doors swing open. The company sells slices to anyone on a public stock market like the NASDAQ. Initial, it's the first time. Public, anyone can buy. Offering, the company is selling. So why would a company open its doors at all? Reason one, money. Selling new slices brings in cash to build things. Reason two, the private club finally gets a way to sell too. That's called cashing out, and SpaceX needed a lot of cash. For its rockets, it's Starlink satellites, and after merging with Elon Musk's AI company, XAI in February, giant AI computers. In 2025, it brought in about $18 .7 billion, but still lost nearly $5 billion. Think of a lemonade stand that sells a lot of lemonade, but spends even more building a giant new factory. Building the future is expensive. Going public is like launching a rocket. There's a countdown. Step one, the paperwork. SpaceX sent the regulator, the SEC, a secret draft on April 1st. On May 20th, it made that document public. It's called an S1 and it's basically the company's diary. What it earns, what it owes and what could go wrong. And anyone can read it for free on the SEC's website. Step 2. The Road Show. Starting June 4th, SpaceX and its banks pitched the stock to huge investors. The lead banks were Goldman Sachs and Morgan Stanley. Banks like these are called underwriters. They At work the banks get paid a fee, a small slice of the money raised. Step 3. The order book. Investors write down how many slices they want and at what price. Normally a company names a price range. If the book overflows, the price can rise. SpaceX skipped the range and named one fixed price, $135 a share. Even so, big investors asked for about four times more shares than there were. Step four, pricing night. On June 11th, the deal was locked in. SpaceX sold about 500 and 56 million new shares. $135 times 556 million is about $75 billion. The old record belonged to Saudi Aramco, about $29 billion in 2019. SpaceX's deal was more than two and a half times bigger. And this time, regular people got a real seat at the table. Usually, everyday investors get 5 -10 % of an IPO. SpaceX planned up to 30%, and in the end, gave about a fifth to retail buyers, through apps like Robinhood, Fidelity, and Schwab. There was one more trick, the green shoe. It lets the banks sell 15 % extra shares, if demand is hot. Demand was hot. The banks used it, and the total grew to about $85 .7 billion. One more detail matters for later. Elon Musk kept about four -fifths of the votes. The public could own slices, but Elon still picks the toppings. June 12, 2026, the opening bell. SPCX opened at $150, already above the IPO price. price. It climbed as high as $176 that day and closed at 160 .95, up 19%. That made SpaceX worth over $2 trillion. Headlines called Elon Musk the world's first trillionaire. A first day jump like this is called an IPO pop. Why does it happen? The IPO price is set before trading starts. If more people want the stock than there are shares to sell, buyers bid the price up. Some say a big pop means the company left money on the table. In other words, maybe it sold its slices too cheaply. But the rocket kept climbing. On June 16, just the third day of trading, SBCX touched $225 .64. That's two -thirds above the IPO price in three trading days. Early buyers felt like geniuses, and then gravity showed up. Stocks rarely fall for just one reason. SBCX was pulled down by four weights. Weight number one, the cursor deal. On the same day as the peak, SpaceX agreed to buy the AI coding company cursor for $60 billion, paid in stock. Paying in stock means cutting new slices from the same pizza. Every existing slice gets a little smaller. That's called dilution. Within two trading days, SpaceX lost more than $600 billion in market value. Weight number two, the lockup. Insiders who own shares before the IPO usually can't sell them for months. It's a promise that stops everyone from rushing for the exit on day one. SpaceX's first big unlock was set for August 6, about 911 million shares. That was almost 7 % of all SpaceX shares. Worried about a flood of selling, investors pushed the price down ahead of time. On July 27, the stock hit a record low, under $109. The funny part, on unlock day itself, the stock actually rose 6%. And over the next five trading days, it climbed about 35 percent. The fear did more damage than the flood. Weight number three, spending. In August, SpaceX handed in its first report card as a public company. Revenue grew 92 percent to $7 .8 billion. Great, but it spent $18 .4 billion in a single quarter, most of it on AI. That's money for giant computer chips and data centers. investors, the kind that power AI models. Investors hate surprise bills. The next day, the stock fell more than 10 percent. Just before that report, on August 3rd, SBCX had touched its all -time low, $104 .83. From the peak, that's a fall of about 53 percent. Weight number four, the price tag itself. At over $2 trillion, buyers were paying for a future of Mars trips and space data centers. When a price assumes everything goes right, any bad news hurts more. It's like a rocket made of glass. Beautiful, but one small pebble can crack it. And there was a hidden risk. In the third quarter, one AI customer made up more than a third of revenue. Bloomberg reported that customer is anthropic, and the contract can be canceled with 90 days notice from early 2027. To be fair, the business kept growing. In October, revenue jumped 161%, and SpaceX made a $4 .4 billion profit. The stock bounced, but by late November, it was back below its $135 IPO price. A great company and a great stock are not always the same thing. Remember the queue at the launch pad? The next giants are taking off. On November 18th, Anthropic, the AI company behind Claude, priced its IPO at $83 a share. It raised $81 .3 billion, more than SpaceX's original 75. Its shares jumped on day one, then slid back toward the IPO price within days. Sound familiar? So is SpaceX still the biggest IPO ever? It depends how you count. Count SpaceX's green shoe, and its $85 .7 billion is still bigger, at least for now. Count only the starting deal, and anthropic wins. Next in line, OpenAI, the maker of chat GPT. It has reportedly filed in secret and is aiming for 2027 with reported valuations above $1 trillion. And other big private companies like Databricks and Stripe are often named as future candidates with no dates set. So what can the SpaceX story teach us before the next mega IPO? One, a first day pop is not a promise. Two, check the lockup calendar. more SpaceX shares unlock on December 8. Three, watch for dilution. New slices make your slice smaller. Four, read the S -1 diary, especially the part about what could go wrong. And five, a famous name doesn't make the price cheap. SpaceX is still building rockets, satellites, and AI computers. Whether its stock reaches Mars is a different story. Because in the stock market, just like in space, what goes up has to fight gravity. This video is for education, not financial advice.",
+ "words_from_whisper": 1164,
+ "words_total": 1474
+}

@@ -1,0 +1,488 @@
+1
+00:00:00,000 --> 00:00:05,984
+One company sold tiny slices of itself, for $135 each.
+
+2
+00:00:06,134 --> 00:00:08,720
+It raised $75 billion.
+
+3
+00:00:08,910 --> 00:00:11,478
+In three days, the stock jumped two-thirds.
+
+4
+00:00:11,628 --> 00:00:14,044
+Then, it lost over half its value.
+
+5
+00:00:14,444 --> 00:00:19,433
+This is the story of the SpaceX IPO, the biggest the world had ever seen.
+
+6
+00:00:19,733 --> 00:00:23,289
+And the wildest part? The next giants are already lining up.
+
+7
+00:00:25,339 --> 00:00:27,862
+Imagine a company is a giant pizza.
+
+8
+00:00:28,062 --> 00:00:30,119
+Every share is one tiny slice.
+
+9
+00:00:30,419 --> 00:00:38,307
+For 24 years, SpaceX only sold its slices to a private club: founders, employees, and big investors.
+
+10
+00:00:38,557 --> 00:00:40,634
+Everyone else was stuck behind the rope.
+
+11
+00:00:40,984 --> 00:00:45,927
+An IPO, or initial public offering, is the day the doors swing open.
+
+12
+00:00:46,177 --> 00:00:51,223
+The company sells slices to anyone, on a public stock market, like the Nasdaq.
+
+13
+00:00:51,573 --> 00:00:53,340
+Initial: it's the first time.
+
+14
+00:00:53,490 --> 00:00:55,127
+Public: anyone can buy.
+
+15
+00:00:55,277 --> 00:00:57,051
+Offering: the company is selling.
+
+16
+00:00:57,401 --> 00:01:00,048
+So why would a company open its doors at all?
+
+17
+00:01:00,318 --> 00:01:05,426
+Reason one: money. Selling new slices brings in cash to build things.
+
+18
+00:01:05,696 --> 00:01:09,443
+Reason two: the private club finally gets a way to sell, too.
+
+19
+00:01:09,713 --> 00:01:11,215
+That's called cashing out.
+
+20
+00:01:11,485 --> 00:01:13,729
+And SpaceX needed a lot of cash.
+
+21
+00:01:13,929 --> 00:01:23,717
+For its rockets, its Starlink satellites, and, after merging with Elon Musk's AI company, ex AI, in February, giant AI computers.
+
+22
+00:01:23,987 --> 00:01:31,401
+In 2025, it brought in about $18.7 billion, but still lost nearly $5 billion.
+
+23
+00:01:31,671 --> 00:01:38,368
+Think of a lemonade stand that sells a lot of lemonade, but spends even more building a giant new factory.
+
+24
+00:01:38,638 --> 00:01:40,601
+Building the future is expensive.
+
+25
+00:01:42,651 --> 00:01:46,383
+Going public is like launching a rocket. There's a countdown.
+
+26
+00:01:46,653 --> 00:01:48,226
+Step one: the paperwork.
+
+27
+00:01:48,426 --> 00:01:53,562
+SpaceX sent the regulator, the SEC, a secret draft on April 1.
+
+28
+00:01:53,832 --> 00:01:56,883
+On May 20, it made that document public.
+
+29
+00:01:57,153 --> 00:02:04,000
+It's called an S-1, and it's basically the company's diary: what it earns, what it owes, and what could go wrong.
+
+30
+00:02:04,270 --> 00:02:07,911
+And anyone can read it for free, on the SEC's website.
+
+31
+00:02:08,311 --> 00:02:09,784
+Step two: the roadshow.
+
+32
+00:02:09,984 --> 00:02:15,227
+Starting June 4, SpaceX and its banks pitched the stock to huge investors.
+
+33
+00:02:15,497 --> 00:02:18,545
+The lead banks were Goldman Sachs and Morgan Stanley.
+
+34
+00:02:18,815 --> 00:02:24,198
+Banks like these are called underwriters. They organize the sale, and find the buyers.
+
+35
+00:02:24,468 --> 00:02:28,995
+For that work, the banks get paid a fee: a small slice of the money raised.
+
+36
+00:02:29,395 --> 00:02:30,950
+Step three: the order book.
+
+37
+00:02:31,150 --> 00:02:35,372
+Investors write down how many slices they want, and at what price.
+
+38
+00:02:35,642 --> 00:02:41,089
+Normally, a company names a price range. If the book overflows, the price can rise.
+
+39
+00:02:41,359 --> 00:02:47,854
+SpaceX skipped the range, and named one fixed price: $135 a share.
+
+40
+00:02:48,124 --> 00:02:52,969
+Even so, big investors asked for about four times more shares than there were.
+
+41
+00:02:53,369 --> 00:02:57,759
+Step four: pricing night. On June 11, the deal was locked in.
+
+42
+00:02:58,029 --> 00:03:02,530
+SpaceX sold about 556 million new shares.
+
+43
+00:03:02,800 --> 00:03:10,877
+$135, times 556 million, is about $75 billion.
+
+44
+00:03:11,227 --> 00:03:17,502
+The old record belonged to Saudi Aramco: about $29 billion, in 2019.
+
+45
+00:03:17,772 --> 00:03:21,398
+SpaceX's deal was more than two and a half times bigger.
+
+46
+00:03:21,798 --> 00:03:25,459
+And this time, regular people got a real seat at the table.
+
+47
+00:03:25,729 --> 00:03:29,985
+Usually, everyday investors get 5-10% of an IPO
+
+48
+00:03:30,255 --> 00:03:39,190
+SpaceX planned up to 30%, and in the end gave about a fifth to retail buyers, through apps like Robinhood, Fidelity, and Schwab.
+
+49
+00:03:39,590 --> 00:03:41,747
+There was one more trick: the greenshoe.
+
+50
+00:03:42,017 --> 00:03:46,573
+It lets the banks sell 15% extra shares, if demand is hot.
+
+51
+00:03:46,843 --> 00:03:53,760
+Demand was hot. The banks used it, and the total grew to about $85.7 billion.
+
+52
+00:03:54,160 --> 00:03:59,556
+One more detail matters for later: Elon Musk kept about four-fifths of the votes.
+
+53
+00:03:59,826 --> 00:04:03,831
+The public could own slices, but Elon still picks the toppings.
+
+54
+00:04:05,881 --> 00:04:09,114
+June 12, 2026. The opening bell.
+
+55
+00:04:09,384 --> 00:04:15,199
+SPCX opened at $150, already above the IPO price.
+
+56
+00:04:15,469 --> 00:04:24,517
+It climbed as high as $176 that day, and closed at $160.95, up 19%.
+
+57
+00:04:24,787 --> 00:04:27,941
+That made SpaceX worth over $2 trillion.
+
+58
+00:04:28,211 --> 00:04:31,678
+Headlines called Elon Musk the world's first trillionaire.
+
+59
+00:04:32,078 --> 00:04:35,223
+A first-day jump like this is called an IPO pop.
+
+60
+00:04:35,493 --> 00:04:39,765
+Why does it happen? The IPO price is set before trading starts.
+
+61
+00:04:40,035 --> 00:04:44,801
+If more people want the stock than there are shares to sell, buyers bid the price up.
+
+62
+00:04:45,071 --> 00:04:49,060
+Some say a big pop means the company left money on the table.
+
+63
+00:04:49,330 --> 00:04:52,598
+In other words, maybe it sold its slices too cheaply.
+
+64
+00:04:52,998 --> 00:04:54,724
+But the rocket kept climbing.
+
+65
+00:04:54,994 --> 00:05:03,248
+On June 16, just the third day of trading, SPCX touched $225.64.
+
+66
+00:05:03,518 --> 00:05:07,733
+That's two-thirds above the IPO price, in three trading days.
+
+67
+00:05:08,003 --> 00:05:10,196
+Early buyers felt like geniuses.
+
+68
+00:05:10,646 --> 00:05:12,237
+And then, gravity showed up.
+
+69
+00:05:14,287 --> 00:05:19,980
+Stocks rarely fall for just one reason. SPCX was pulled down by four weights.
+
+70
+00:05:20,330 --> 00:05:22,406
+Weight number one: the Cursor deal.
+
+71
+00:05:22,606 --> 00:05:30,863
+On the same day as the peak, SpaceX agreed to buy the AI coding company Cursor for $60 billion, paid in stock.
+
+72
+00:05:31,133 --> 00:05:34,893
+Paying in stock means cutting new slices from the same pizza.
+
+73
+00:05:35,163 --> 00:05:39,281
+Every existing slice gets a little smaller. That's called dilution.
+
+74
+00:05:39,551 --> 00:05:45,671
+Within two trading days, SpaceX lost more than $600 billion in market value.
+
+75
+00:05:46,071 --> 00:05:47,964
+Weight number two: the lock-up.
+
+76
+00:05:48,164 --> 00:05:53,447
+Insiders who owned shares before the IPO usually can't sell them for months.
+
+77
+00:05:53,717 --> 00:05:57,892
+It's a promise that stops everyone from rushing for the exit on day one.
+
+78
+00:05:58,162 --> 00:06:04,900
+SpaceX's first big unlock was set for August 6: about 911 million shares.
+
+79
+00:06:05,170 --> 00:06:08,189
+That was almost 7% of all SpaceX shares.
+
+80
+00:06:08,459 --> 00:06:12,927
+Worried about a flood of selling, investors pushed the price down ahead of time.
+
+81
+00:06:13,197 --> 00:06:18,932
+On July 27, the stock hit a record low, under $109.
+
+82
+00:06:19,202 --> 00:06:24,119
+The funny part? On unlock day itself, the stock actually rose 6%.
+
+83
+00:06:24,389 --> 00:06:28,796
+And over the next five trading days, it climbed about 35%.
+
+84
+00:06:29,146 --> 00:06:31,315
+The fear did more damage than the flood.
+
+85
+00:06:31,865 --> 00:06:33,640
+Weight number three: spending.
+
+86
+00:06:33,840 --> 00:06:38,742
+In August, SpaceX handed in its first report card as a public company.
+
+87
+00:06:39,012 --> 00:06:44,002
+Revenue grew 92%, to $7.8 billion. Great!
+
+88
+00:06:44,272 --> 00:06:49,556
+But it spent $18.4 billion in a single quarter, most of it on AI
+
+89
+00:06:49,826 --> 00:06:55,608
+That's money for giant computer chips and data centers, the kind that power AI models.
+
+90
+00:06:55,878 --> 00:07:01,219
+Investors hate surprise bills. The next day, the stock fell more than 10%.
+
+91
+00:07:01,489 --> 00:07:10,559
+Just before that report, on August 3, SPCX had touched its all-time low: $104.83.
+
+92
+00:07:10,829 --> 00:07:14,088
+From the peak, that's a fall of about 53%.
+
+93
+00:07:14,488 --> 00:07:16,980
+Weight number four: the price tag itself.
+
+94
+00:07:17,180 --> 00:07:23,565
+At over $2 trillion, buyers were paying for a future of Mars trips and space data centers.
+
+95
+00:07:23,835 --> 00:07:28,075
+When a price assumes everything goes right, any bad news hurts more.
+
+96
+00:07:28,345 --> 00:07:33,169
+It's like a rocket made of glass: beautiful, but one small pebble can crack it.
+
+97
+00:07:33,439 --> 00:07:39,946
+And there was a hidden risk: in the third quarter, one AI customer made up more than a third of revenue.
+
+98
+00:07:40,216 --> 00:07:48,899
+Bloomberg reported that customer is Anthropic, and the contract can be canceled with 90 days' notice from early 2027.
+
+99
+00:07:49,299 --> 00:07:51,488
+To be fair, the business kept growing.
+
+100
+00:07:51,758 --> 00:07:59,992
+In October, revenue jumped 161%, and SpaceX made a $4.4 billion profit.
+
+101
+00:08:00,262 --> 00:08:07,743
+The stock bounced. But by late November, it was back below its $135 IPO price.
+
+102
+00:08:08,193 --> 00:08:12,048
+A great company and a great stock are not always the same thing.
+
+103
+00:08:14,098 --> 00:08:18,016
+Remember the queue at the launch pad? The next giants are taking off.
+
+104
+00:08:18,286 --> 00:08:26,030
+On November 18, Anthropic, the AI company behind Claude, priced its IPO at $83 a share.
+
+105
+00:08:26,300 --> 00:08:32,283
+It raised $81.3 billion, more than SpaceX's original $75 billion.
+
+106
+00:08:32,553 --> 00:08:39,303
+Its shares jumped on day one, then slid back toward the IPO price within days. Sound familiar?
+
+107
+00:08:39,653 --> 00:08:44,289
+So is SpaceX still the biggest IPO ever? It depends how you count.
+
+108
+00:08:44,559 --> 00:08:51,003
+Count SpaceX's greenshoe, and its $85.7 billion is still bigger, at least for now.
+
+109
+00:08:51,273 --> 00:08:54,578
+Count only the starting deal, and Anthropic wins.
+
+110
+00:08:54,978 --> 00:08:58,944
+Next in line: Open AI, the maker of ChatGPT
+
+111
+00:08:59,214 --> 00:09:07,867
+It has reportedly filed in secret, and is aiming for 2027, with reported valuations above $1 trillion.
+
+112
+00:09:08,137 --> 00:09:15,721
+And other big private companies, like Databricks and Stripe, are often named as future candidates, with no dates set.
+
+113
+00:09:16,171 --> 00:09:20,670
+So what can the SpaceX story teach us, before the next mega IPO?
+
+114
+00:09:21,020 --> 00:09:23,564
+One: a first-day pop is not a promise.
+
+115
+00:09:23,864 --> 00:09:28,878
+Two: check the lock-up calendar. More SpaceX shares unlock on December 8.
+
+116
+00:09:29,178 --> 00:09:33,167
+Three: watch for dilution. New slices make your slice smaller.
+
+117
+00:09:33,467 --> 00:09:38,032
+Four: read the S-1 diary, especially the part about what could go wrong.
+
+118
+00:09:38,332 --> 00:09:41,375
+And five: a famous name doesn't make the price cheap.
+
+119
+00:09:41,825 --> 00:09:46,201
+SpaceX is still building rockets, satellites, and AI computers.
+
+120
+00:09:46,471 --> 00:09:49,429
+Whether its stock reaches Mars is a different story.
+
+121
+00:09:49,779 --> 00:09:54,951
+Because in the stock market, just like in space, what goes up has to fight gravity.
+
+122
+00:09:55,601 --> 00:09:59,264
+This video is for education, not financial advice.
+

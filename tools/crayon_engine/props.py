@@ -411,10 +411,10 @@ def chart(f, x, y, w, h, pts, progress=1.0, color=PAL["money"], grid=True, glow=
     if grid:
         for i in range(7):
             gx = x + w * i / 6
-            line(ctx, [(gx, y), (gx, y + h)], f.lw(2), hx("#24476A"))
+            line(ctx, [(gx, y), (gx, y + h)], f.lw(2), hx("#4A7598"))
         for j in range(5):
             gy = y + h * j / 4
-            line(ctx, [(x, gy), (x + w, gy)], f.lw(2), hx("#24476A"))
+            line(ctx, [(x, gy), (x + w, gy)], f.lw(2), hx("#4A7598"))
     P = [(x + u * w, y + (1 - v) * h) for u, v in pts]
     seg = [math.dist(P[i], P[i + 1]) for i in range(len(P) - 1)]
     total = sum(seg)

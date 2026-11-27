@@ -1,11 +1,11 @@
 # Script: The SpaceX IPO Explained Like You're 5
 
-- **Version:** v1. The **pilot section (lines 1–17) is locked** and recorded. Lines 18–111 are a fact-checked draft, locked after the pilot is approved.
+- **Version:** v2 (**FULL, locked** 2026-11-27 after pilot approval). Lines marked `+` were added for length and clarity. Lines marked `Δ` were changed after the fact re-check (see `sources.md` §H).
 - **Narration:** English, ELI5, ≤ 20 words per sentence, target ~149 wpm (measured in the pilot VO, see `qc_report.md`).
 - **Hook formula:** "Rapid-fire contradictions + reveal" (`workflows/pre_production.md` §3).
 - **Fact IDs** in `{}` point to rows in `sources.md`.
 - Numbers are written as digits for reading. The TTS uses the spoken forms in `pilot_vo.json`.
-- Total draft: **≈ 1,460 VO words ≈ 9.8 min of speech**, plus ≈ 60–80 s of pauses and chapter cards → **≈ 11 min**.
+- Total: **122 VO lines, 1,474 spoken words** (Kokoro speed 0.98) → final duration: see `qc_report_full.md`.
 
 ---
 
@@ -38,16 +38,18 @@
 | 16 | Public: anyone can buy. | [VISUAL: Card "PUBLIC" pops in beside it (crowd icon).] |
 | 17 | Offering: the company is selling. | [VISUAL: Card "OFFERING" pops in (price-tag icon). All three hold.] |
 
-*— end of PILOT (~60 s) —*
+*— end of the PILOT section (the full version continues without the "To be continued" slate) —*
 
 | # | VO | [VISUAL: …] |
 |---|---|---|
 | 18 | So why would a company open its doors at all? | [VISUAL: Elon at the open doors, "thinking" expression (eyes up, crooked mouth).] |
 | 19 | Reason one: money. Selling new slices brings in cash to build things. | [VISUAL: Slices turn into money sacks, then into rocket parts.] |
 | 20 | Reason two: the private club finally gets a way to sell, too. | [VISUAL: Club members hand slices out, cash comes back.] |
+| 20b `+` | That's called cashing out. | [VISUAL: Same shot, label "CASHING OUT" pops in.] |
 | 21 | And SpaceX needed a lot of cash. | [VISUAL: A giant blank cheque.] |
 | 22 | For its rockets, its Starlink satellites, and, after merging with Elon Musk's AI company xAI in February, giant AI computers. {A14} | [VISUAL: Triptych split screen: rocket / satellite / server racks.] |
 | 23 | In 2025 it brought in about $18.7 billion, but still lost nearly $5 billion. {A15} | [VISUAL: Balance scale: green "IN $18.7B" vs red "LOST ≈$4.9B".] |
+| 23b `+` | Think of a lemonade stand that sells a lot of lemonade, but spends even more building a giant new factory. | [VISUAL: Small lemonade stand next to a huge factory under construction.] |
 | 24 | Building the future is expensive. | [VISUAL: Elon sweating beside a very long bill.] |
 
 **[CARD]** "Chapter 2: Building the Biggest Launch"
@@ -61,14 +63,17 @@
 | 27 | SpaceX sent the regulator, the SEC, a secret draft on April first. {A9} | [VISUAL: Envelope "CONFIDENTIAL" into a mailbox; desk calendar "APR 1".] |
 | 28 | On May twentieth, it made that document public. {A9} | [VISUAL: Document unfolds; calendar "MAY 20"; crowd leans in to read.] |
 | 29 | It's called an S-1, and it's basically the company's diary: what it earns, what it owes, and what could go wrong. | [VISUAL: Diary with three tabs: EARNS / OWES / RISKS.] |
+| 29b `+` | And anyone can read it for free, on the SEC's website. | [VISUAL: Laptop with the diary on screen; retail investor reading.] |
 | 30 | Step two: the roadshow. | [VISUAL: A bus labelled "ROADSHOW" drives in (motion lines).] |
 | 31 | Starting June fourth, SpaceX and its banks pitched the stock to huge investors. {A9} | [VISUAL: Conference table, big-fund investors (white heads), Elon presenting a rocket chart.] |
 | 32 | The lead banks were Goldman Sachs and Morgan Stanley. {A10} | [VISUAL: Two banker figures (white heads, top hats) with handwritten name labels.] |
 | 33 | Banks like these are called underwriters. They organise the sale and find the buyers. | [VISUAL: Banker with a big ledger.] |
+| 33b `+` | For that work, the banks get paid a fee: a small slice of the money raised. | [VISUAL: Banker receives a thin slice of the money tower.] |
 | 34 | Step three: the order book. | [VISUAL: The ledger opens.] |
 | 35 | Investors write down how many slices they want, and at what price. | [VISUAL: Order slips fly into the book.] |
 | 36 | Normally, a company names a price range. If the book overflows, the price can rise. | [VISUAL: Book overflowing; price slider moves up.] |
-| 37 | SpaceX skipped the range and named one fixed price: $135 a share. {A2} | [VISUAL: Price tag stamped "$135".] |
+| 37 | SpaceX skipped the range and named one fixed price: $135 a share. {A2, A17} | [VISUAL: Price tag stamped "$135".] |
+| 37b `+` | Even so, big investors asked for about four times more shares than there were. {A16} | [VISUAL: Four tall stacks of orders vs one stack of shares, "4×".] |
 | 38 | Step four: pricing night. On June eleventh, the deal was locked in. {A9} | [VISUAL: Calendar "JUN 11", night window, padlock.] |
 | 39 | SpaceX sold about 556 million new shares. {A3} | [VISUAL: Mountain of tiny slices, counter ticks up.] |
 | 40 | $135 times 556 million is about $75 billion. {A4} | [VISUAL: Handwritten maths on a chalkboard.] |
@@ -98,6 +103,7 @@
 | 57 | Why does it happen? The IPO price is set before trading starts. | [VISUAL: Price tag pinned before the doors open.] |
 | 58 | If more people want the stock than there are shares to sell, buyers bid the price up. | [VISUAL: Auction, white heads with hands up.] |
 | 59 | Some say a big pop means the company left money on the table. | [VISUAL: A table with cash left on it.] |
+| 59b `+` | In other words, maybe it sold its slices too cheaply. | [VISUAL: Price tag "$135" with a small "too cheap?" label.] |
 | 60 | But the rocket kept climbing. | [VISUAL: Rocket on the chart line.] |
 | 61 | On June sixteenth, just the third day of trading, SPCX touched $225.64. {B4} | [VISUAL: Peak flag on chart; calendar "JUN 16".] |
 | 62 | That's two-thirds above the IPO price, in three trading days. {B4} | [VISUAL: Label "+67%".] |
@@ -118,23 +124,28 @@
 | 70 | Within two trading days, SpaceX lost more than $600 billion in market value. {C2} | [VISUAL: Money tower collapses (impact shake).] |
 | 71 | Weight number two: the lock-up. | [VISUAL: Weight "2".] |
 | 72 | Insiders who owned shares before the IPO usually can't sell them for months. | [VISUAL: Locked suitcases stacked behind a dam.] |
-| 73 | SpaceX's first big unlock was set for August sixth: 911.5 million shares. {C3} | [VISUAL: Calendar "AUG 6"; padlock on the dam.] |
+| 72b `+` | It's a promise that stops everyone from rushing for the exit on day one. | [VISUAL: Padlocked door marked "EXIT".] |
+| 73 | SpaceX's first big unlock was set for August sixth: about 911 million shares. {C3} | [VISUAL: Calendar "AUG 6"; padlock on the dam.] |
+| 73b `+` | That was almost seven percent of all SpaceX shares. {C10} | [VISUAL: Pie chart with a 6.9% slice.] |
 | 74 | Worried about a flood of selling, investors pushed the price down ahead of time. {C4} | [VISUAL: Crowd running from the dam.] |
 | 75 | On July twenty-seventh, the stock hit a record low, under $109. {C4} | [VISUAL: Chart low flag.] |
 | 76 | The funny part? On unlock day itself, the stock actually rose six percent. {C3} | [VISUAL: Dam opens, only a trickle; Elon shrugs.] |
+| 76b `+` | And over the next five trading days, it climbed about thirty-five percent. {C11} | [VISUAL: Chart jumps up; label "+35% in 5 days".] |
 | 77 | The fear did more damage than the flood. | [VISUAL: **Black card punchline**, write-on.] |
 | 78 | Weight number three: spending. | [VISUAL: Weight "3".] |
 | 79 | In August, SpaceX handed in its first report card as a public company. {C6} | [VISUAL: Report card on a desk; calendar "AUG 4".] |
 | 80 | Revenue grew ninety-two percent, to $7.8 billion. Great! {C6} | [VISUAL: Big green "A+".] |
 | 81 | But it spent $18.4 billion in a single quarter, most of it on AI. {C6} | [VISUAL: Bill unrolls; "$15.8B AI" highlighted.] |
-| 82 | Investors hate surprise bills. The stock fell as much as twelve percent. {C6} | [VISUAL: Red arrow down "−12%".] |
+| 81b `+` | That's money for giant computer chips and data centers, the kind that power AI models. | [VISUAL: Server racks glowing.] |
+| 82 `Δ` | Investors hate surprise bills. The next day, the stock fell more than ten percent. {C6} | [VISUAL: Red arrow down "−10%+".] |
 | 83 | Just before that report, on August third, SPCX had touched its all-time low: $104.83. {C5} | [VISUAL: Chart bottom flag.] |
 | 84 | From the peak, that's a fall of about fifty-three percent. {C5} | [VISUAL: Handwritten maths "225.64 → 104.83 = −53.5%".] |
 | 85 | Weight number four: the price tag itself. | [VISUAL: Weight "4".] |
 | 86 | At over two trillion dollars, buyers were paying for a future of Mars trips and space data centres. | [VISUAL: Fuel tank labelled "MARS-SIZED EXPECTATIONS".] |
 | 87 | When a price assumes everything goes right, any bad news hurts more. | [VISUAL: Glass rocket; a tiny pebble cracks it.] |
+| 87b `+` | It's like a rocket made of glass: beautiful, but one small pebble can crack it. | [VISUAL: Same glass rocket, crack spreads.] |
 | 88 | And there was a hidden risk: in the third quarter, one AI customer made up more than a third of revenue. {C8} | [VISUAL: Pie chart, one giant 34.5% slice.] |
-| 89 | Reports say that customer is Anthropic, and either side can cancel with ninety days' notice once early 2027 arrives. {C8} | [VISUAL: Contract with a small exit door; calendar "2027".] |
+| 89 `Δ` | Bloomberg reported that customer is Anthropic, and the contract can be canceled with ninety days' notice from early 2027. {C8} | [VISUAL: Contract with a small exit door; calendar "2027".] |
 | 90 | To be fair, the business kept growing. | [VISUAL: Factory lights on.] |
 | 91 | In October, revenue jumped one hundred sixty-one percent, and SpaceX made a $4.4 billion profit. {C7} | [VISUAL: Report card "A+" again.] |
 | 92 | The stock bounced. But by late November, it was back below its $135 IPO price. {C9} | [VISUAL: Chart wiggles under the $135 dashed line.] |
@@ -149,11 +160,13 @@
 | 94 | Remember the queue at the launch pad? The next giants are taking off. | [VISUAL: **Callback** to hook S6: the same silhouettes queue.] |
 | 95 | On November eighteenth, Anthropic, the AI company behind Claude, priced its IPO at $83 a share. {D1} | [VISUAL: Silhouette 1 turns colour (generic AI character, no logo); calendar "NOV 18".] |
 | 96 | It raised $81.3 billion, more than SpaceX's original seventy-five. {D1, A7} | [VISUAL: Two money towers.] |
+| 96b `+` | Its shares jumped on day one, then slid back toward the IPO price within days. Sound familiar? {D1} | [VISUAL: Mini chart up then down; Elon glances at the camera.] |
 | 97 | So is SpaceX still the biggest IPO ever? It depends how you count. | [VISUAL: Balance scale.] |
-| 98 | Count the greenshoe, and SpaceX's $85.7 billion is still bigger. {A5} | [VISUAL: The scale tips to SpaceX.] |
+| 98 `Δ` | Count SpaceX's greenshoe, and its $85.7 billion is still bigger, at least for now. {A5} | [VISUAL: The scale tips to SpaceX.] |
 | 99 | Count only the starting deal, and Anthropic wins. {A7} | [VISUAL: The scale tips the other way.] |
 | 100 | Next in line: OpenAI, the maker of ChatGPT. {D2} | [VISUAL: Silhouette 2 steps forward.] |
-| 101 | It has reportedly filed in secret, and is aiming for 2027, at a value reported around $1.25 trillion. {D2} | [VISUAL: Calendar "2027 ?"; number write-on.] |
+| 101 `Δ` | It has reportedly filed in secret, and is aiming for 2027, with reported valuations above one trillion dollars. {D2} | [VISUAL: Calendar "2027 ?"; label "> $1 trillion (reported)".] |
+| 101b `+` | And other big private companies, like Databricks and Stripe, are often named as future candidates, with no dates set. {D3} | [VISUAL: Two more silhouettes with "?" tickets.] |
 | 102 | So what can the SpaceX story teach us before the next mega-IPO? | [VISUAL: Whiteboard checklist.] |
 | 103 | One: a first-day pop is not a promise. | [VISUAL: Popcorn callback.] |
 | 104 | Two: check the lock-up calendar. More SpaceX shares unlock on December eighth. {C3} | [VISUAL: Calendar "DEC 8".] |

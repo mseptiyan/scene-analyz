@@ -30,6 +30,7 @@ python productions/spacex-ipo/pilot.py shotlist /home/user/work/spacex-ipo/audio
 | `draw.py` | primitives: circle/ellipse/bean/rrect, `crescent()` (one hard crescent shadow away from the key light), contact shadow |
 | `character.py` | `Look` + `draw()`: round head, bean body, rubber-hose limbs, hair, hats, glasses, 12 expressions (eye+brow+mouth swap), blink 2–5 s/4 f, breathing 1.2%/2.6 s, 10 poses, anon (grey face) for reveals; `crowd()` (grey, faceless); `silhouette()` |
 | `props.py` | certificate, bill, money sack, money mountain, generic rocket, newspaper, pizza/slice, velvet rope, plaque, doors, phone, ticket, **desk calendar (flip)**, **stock chart draw-on** (with rocket tip), word card, office building, ticker tape |
+| `props2.py` | finance/process props: countdown board, document stack, envelope, SEC mailbox, S-1 diary with tabs, laptop, roadshow bus, order book, slips, price slider, price tag, stamp, padlock, chalkboard, money tower, pie with ghost slice, green shoe, ballot box, bell, popcorn, auction paddle, weight + chain, contract + pen, knife, suitcase, dam, report card, receipt (unroll), fuel tank, planet, satellite, server rack, cheque, big arrow, balance scale, factory, lemonade stand, chained EXIT door, glass rocket (crack), whiteboard |
 | `backgrounds.py` | white void + floor disc, **elliptical radial spotlight**, gold radial, night grid, crisis desk, red club, market hall, blue wall, night launch pad (2 searchlights in a "V"), black card, vignette, light shafts |
 | `text.py` | handwritten text from TTF outlines (fontTools → cairo), outer ink stroke, **letter-by-letter write-on**, dialogue balloon with a tail tick, label + hand-drawn arrow |
 | `fx.py` | **confetti** & **money rain** (closed-form physics on ones, deterministic), sparkle, speed lines, "!!", smoke |
@@ -38,6 +39,14 @@ python productions/spacex-ipo/pilot.py shotlist /home/user/work/spacex-ipo/audio
 | `vo.py` | Kokoro TTS, assembly with controlled pauses, limiter + two-pass loudnorm, faster-whisper + difflib alignment, line-start pinning |
 | `audio.py` | procedural SFX (pop, whoosh, cash, thud, flip, tick, sparkle, door, boing, riser) + a soft pad ducked under the VO, final mix at −14 LUFS |
 | `qc.py` | ffprobe, EBU R128, cut & flash-frame detection, lum/sat per shot, frame extraction, outline thickness measurement, re-transcription of the final mix |
+
+## Full production (SpaceX IPO)
+```bash
+python -m crayon_engine.vo productions/spacex-ipo/full_vo.json /home/user/work/spacex-ipo/audio_full
+python -c "from crayon_engine.vo import realign_per_line as r; r('/home/user/work/spacex-ipo/audio_full')"  # per-line alignment
+cd productions/spacex-ipo && python full.py render && python full.py shotlist && python full.py srt && python full.py thumbnail
+python qc_full.py <mp4> <qc_dir>
+```
 
 ## Minimum motion features (request → implementation)
 - Instant pose/expression swaps → `expr=`/`pose=` change per frame with no in-betweens (e.g. SH060 every 21 f)

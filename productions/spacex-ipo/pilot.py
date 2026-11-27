@@ -28,7 +28,7 @@ from crayon_engine.text import balloon, label, multiline, text, write_on_chars  
 from crayon_engine.timeline import Shot, Timeline, Words  # noqa: E402
 from looks import BIG_FUND, BOUNCER, ELON, EMPLOYEE, FOUNDER_FRIEND, RETAIL  # noqa: E402
 
-AUD = sys.argv[2] if len(sys.argv) > 2 else os.environ.get("PILOT_AUDIO", "/home/user/work/spacex-ipo/audio")
+AUD = os.environ.get("CV_AUDIO") or (sys.argv[2] if len(sys.argv) > 2 else "/home/user/work/spacex-ipo/audio")
 WD = Words(os.path.join(AUD, "words.json"), os.path.join(AUD, "lines.json"))
 T = WD.t          # T(line, token) -> global seconds of a word
 VO_END = WD.line(17)["end"]

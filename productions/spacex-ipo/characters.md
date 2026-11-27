@@ -48,6 +48,16 @@ Model sheets: `assets/modelsheet_pilot.png` (hero anon → revealed, extras, cro
 | Early investor | private investor | white | navy `#2A3556` + white shirt, red tie `#D9363E` | gold monocle `#C98A12` |
 | Bouncer | gatekeeper | white | black suit `#1E1C1F` (width 1.18) | sunglasses + earpiece |
 
+## Added for the full video (Ch 2–5)
+| ID | Role | Class | Head | Body / props | Palette |
+|---|---|---|---|---|---|
+| Banker A | lead underwriter (generic; name shown by label only) | extra | white + black top hat | navy suit, green tie | body `#22324A`, shirt `#F3F3F3`, tie `#4FAE5A` |
+| Banker B | lead underwriter (generic) | extra | white + round glasses | plum suit, red tie | body `#3B2E4A`, tie `#D9363E` |
+| AI company A (shown as "Anthropic" by label) | revealed from the antenna silhouette in Ch 5 | extra (company mascot, **no logo, no brand colour**) | white + antenna (gold tip `#F2B630`) | sage `#5B8C7A`, shirt `#E9F2EE`, IPO ticket | — |
+| AI company B (shown as "OpenAI" by label) | revealed from the round silhouette in Ch 5 | extra (company mascot, no logo) | white + round glasses | blue `#4A6FA5`, IPO ticket | — |
+
+Rule: companies are never shown with their real logo or brand colours. They are identified only by handwritten editorial labels.
+
 ## CROWD (background)
 - Grey heads `#8C8C90–#C2C2C4`, grey bodies `#7E7E83–#B3B3B6`, **no faces**, outline 4.5–5 px.
 - Cheering = instant up/down bob swap every 9 frames, de-synced per member. Foreground crowds have no arms (QC fix: arms crossed the neighbours' heads).

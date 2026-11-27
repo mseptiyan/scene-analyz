@@ -1,0 +1,673 @@
+{
+ "voice": "am_michael",
+ "speed": 0.98,
+ "lang_code": "a",
+ "sample_rate": 24000,
+ "default_pause": 0.42,
+ "chapters": [
+  {
+   "id": "ch00_hook",
+   "lines": [
+    {
+     "id": 1,
+     "say": "One company sold tiny slices of itself, for one hundred and thirty-five dollars each.",
+     "pause": 0.3
+    },
+    {
+     "id": 2,
+     "say": "It raised seventy-five billion dollars.",
+     "pause": 0.34
+    },
+    {
+     "id": 3,
+     "say": "In three days, the stock jumped two-thirds.",
+     "pause": 0.3
+    },
+    {
+     "id": 4,
+     "say": "Then, it lost over half its value.",
+     "pause": 0.55
+    },
+    {
+     "id": 5,
+     "say": "This is the story of the SpaceX I.P.O., the biggest the world had ever seen.",
+     "pause": 0.45
+    },
+    {
+     "id": 6,
+     "say": "And the wildest part? The next giants are already lining up.",
+     "pause": 0.0
+    }
+   ]
+  },
+  {
+   "id": "card_ch01",
+   "silence": 2.2
+  },
+  {
+   "id": "ch01",
+   "lines": [
+    {
+     "id": 7,
+     "say": "Imagine a company is a giant pizza.",
+     "pause": 0.35
+    },
+    {
+     "id": 8,
+     "say": "Every share is one tiny slice.",
+     "pause": 0.45
+    },
+    {
+     "id": "9-11",
+     "say": "For twenty-four years, SpaceX only sold its slices to a private club: founders, employees, and big investors.",
+     "pause": 0.4
+    },
+    {
+     "id": 12,
+     "say": "Everyone else was stuck behind the rope.",
+     "pause": 0.5
+    },
+    {
+     "id": 13,
+     "say": "An I.P.O., or initial public offering, is the day the doors swing open.",
+     "pause": 0.4
+    },
+    {
+     "id": 14,
+     "say": "The company sells slices to anyone, on a public stock market, like the Nasdaq.",
+     "pause": 0.5
+    },
+    {
+     "id": 15,
+     "say": "Initial: it's the first time.",
+     "pause": 0.3
+    },
+    {
+     "id": 16,
+     "say": "Public: anyone can buy.",
+     "pause": 0.3
+    },
+    {
+     "id": 17,
+     "say": "Offering: the company is selling.",
+     "pause": 0.5
+    },
+    {
+     "id": 18,
+     "say": "So why would a company open its doors at all?",
+     "pause": 0.42
+    },
+    {
+     "id": 19,
+     "say": "Reason one: money. Selling new slices brings in cash to build things.",
+     "pause": 0.42
+    },
+    {
+     "id": 20,
+     "say": "Reason two: the private club finally gets a way to sell, too.",
+     "pause": 0.42
+    },
+    {
+     "id": "20b",
+     "say": "That's called cashing out.",
+     "pause": 0.42
+    },
+    {
+     "id": 21,
+     "say": "And SpaceX needed a lot of cash.",
+     "pause": 0.35
+    },
+    {
+     "id": 22,
+     "say": "For its rockets, its Starlink satellites, and, after merging with Elon Musk's A.I. company, ex A.I., in February, giant A.I. computers.",
+     "pause": 0.42
+    },
+    {
+     "id": 23,
+     "say": "In twenty twenty-five, it brought in about eighteen point seven billion dollars, but still lost nearly five billion.",
+     "pause": 0.42
+    },
+    {
+     "id": "23b",
+     "say": "Think of a lemonade stand that sells a lot of lemonade, but spends even more building a giant new factory.",
+     "pause": 0.42
+    },
+    {
+     "id": 24,
+     "say": "Building the future is expensive.",
+     "pause": 0.0
+    }
+   ]
+  },
+  {
+   "id": "card_ch02",
+   "silence": 2.2
+  },
+  {
+   "id": "ch02",
+   "lines": [
+    {
+     "id": 25,
+     "say": "Going public is like launching a rocket. There's a countdown.",
+     "pause": 0.42
+    },
+    {
+     "id": 26,
+     "say": "Step one: the paperwork.",
+     "pause": 0.35
+    },
+    {
+     "id": 27,
+     "say": "SpaceX sent the regulator, the S.E.C., a secret draft on April first.",
+     "pause": 0.42
+    },
+    {
+     "id": 28,
+     "say": "On May twentieth, it made that document public.",
+     "pause": 0.42
+    },
+    {
+     "id": 29,
+     "say": "It's called an S-one, and it's basically the company's diary: what it earns, what it owes, and what could go wrong.",
+     "pause": 0.42
+    },
+    {
+     "id": "29b",
+     "say": "And anyone can read it for free, on the S.E.C.'s website.",
+     "pause": 0.55
+    },
+    {
+     "id": 30,
+     "say": "Step two: the roadshow.",
+     "pause": 0.35
+    },
+    {
+     "id": 31,
+     "say": "Starting June fourth, SpaceX and its banks pitched the stock to huge investors.",
+     "pause": 0.42
+    },
+    {
+     "id": 32,
+     "say": "The lead banks were Goldman Sachs and Morgan Stanley.",
+     "pause": 0.42
+    },
+    {
+     "id": 33,
+     "say": "Banks like these are called underwriters. They organize the sale, and find the buyers.",
+     "pause": 0.42
+    },
+    {
+     "id": "33b",
+     "say": "For that work, the banks get paid a fee: a small slice of the money raised.",
+     "pause": 0.55
+    },
+    {
+     "id": 34,
+     "say": "Step three: the order book.",
+     "pause": 0.35
+    },
+    {
+     "id": 35,
+     "say": "Investors write down how many slices they want, and at what price.",
+     "pause": 0.42
+    },
+    {
+     "id": 36,
+     "say": "Normally, a company names a price range. If the book overflows, the price can rise.",
+     "pause": 0.42
+    },
+    {
+     "id": 37,
+     "say": "SpaceX skipped the range, and named one fixed price: one hundred and thirty-five dollars a share.",
+     "pause": 0.42
+    },
+    {
+     "id": "37b",
+     "say": "Even so, big investors asked for about four times more shares than there were.",
+     "pause": 0.55
+    },
+    {
+     "id": 38,
+     "say": "Step four: pricing night. On June eleventh, the deal was locked in.",
+     "pause": 0.42
+    },
+    {
+     "id": 39,
+     "say": "SpaceX sold about five hundred and fifty-six million new shares.",
+     "pause": 0.42
+    },
+    {
+     "id": 40,
+     "say": "One hundred and thirty-five dollars, times five hundred and fifty-six million, is about seventy-five billion dollars.",
+     "pause": 0.5
+    },
+    {
+     "id": 41,
+     "say": "The old record belonged to Saudi Aramco: about twenty-nine billion dollars, in twenty nineteen.",
+     "pause": 0.42
+    },
+    {
+     "id": 42,
+     "say": "SpaceX's deal was more than two and a half times bigger.",
+     "pause": 0.55
+    },
+    {
+     "id": 43,
+     "say": "And this time, regular people got a real seat at the table.",
+     "pause": 0.42
+    },
+    {
+     "id": 44,
+     "say": "Usually, everyday investors get five to ten percent of an I.P.O.",
+     "pause": 0.42
+    },
+    {
+     "id": 45,
+     "say": "SpaceX planned up to thirty percent, and in the end gave about a fifth to retail buyers, through apps like Robinhood, Fidelity, and Schwab.",
+     "pause": 0.55
+    },
+    {
+     "id": 46,
+     "say": "There was one more trick: the greenshoe.",
+     "pause": 0.42
+    },
+    {
+     "id": 47,
+     "say": "It lets the banks sell fifteen percent extra shares, if demand is hot.",
+     "pause": 0.42
+    },
+    {
+     "id": 48,
+     "say": "Demand was hot. The banks used it, and the total grew to about eighty-five point seven billion dollars.",
+     "pause": 0.55
+    },
+    {
+     "id": 49,
+     "say": "One more detail matters for later: Elon Musk kept about four-fifths of the votes.",
+     "pause": 0.42
+    },
+    {
+     "id": 50,
+     "say": "The public could own slices, but Elon still picks the toppings.",
+     "pause": 0.0
+    }
+   ]
+  },
+  {
+   "id": "card_ch03",
+   "silence": 2.2
+  },
+  {
+   "id": "ch03",
+   "lines": [
+    {
+     "id": 51,
+     "say": "June twelfth, twenty twenty-six. The opening bell.",
+     "pause": 0.42
+    },
+    {
+     "id": 52,
+     "say": "S.P.C.X. opened at one hundred and fifty dollars, already above the I.P.O. price.",
+     "pause": 0.42
+    },
+    {
+     "id": 53,
+     "say": "It climbed as high as one hundred and seventy-six dollars that day, and closed at one sixty point nine five, up nineteen percent.",
+     "pause": 0.42
+    },
+    {
+     "id": 54,
+     "say": "That made SpaceX worth over two trillion dollars.",
+     "pause": 0.42
+    },
+    {
+     "id": 55,
+     "say": "Headlines called Elon Musk the world's first trillionaire.",
+     "pause": 0.55
+    },
+    {
+     "id": 56,
+     "say": "A first-day jump like this is called an I.P.O. pop.",
+     "pause": 0.42
+    },
+    {
+     "id": 57,
+     "say": "Why does it happen? The I.P.O. price is set before trading starts.",
+     "pause": 0.42
+    },
+    {
+     "id": 58,
+     "say": "If more people want the stock than there are shares to sell, buyers bid the price up.",
+     "pause": 0.42
+    },
+    {
+     "id": 59,
+     "say": "Some say a big pop means the company left money on the table.",
+     "pause": 0.42
+    },
+    {
+     "id": "59b",
+     "say": "In other words, maybe it sold its slices too cheaply.",
+     "pause": 0.55
+    },
+    {
+     "id": 60,
+     "say": "But the rocket kept climbing.",
+     "pause": 0.42
+    },
+    {
+     "id": 61,
+     "say": "On June sixteenth, just the third day of trading, S.P.C.X. touched two hundred and twenty-five dollars and sixty-four cents.",
+     "pause": 0.42
+    },
+    {
+     "id": 62,
+     "say": "That's two-thirds above the I.P.O. price, in three trading days.",
+     "pause": 0.42
+    },
+    {
+     "id": 63,
+     "say": "Early buyers felt like geniuses.",
+     "pause": 0.6
+    },
+    {
+     "id": 64,
+     "say": "And then, gravity showed up.",
+     "pause": 0.0
+    }
+   ]
+  },
+  {
+   "id": "card_ch04",
+   "silence": 2.2
+  },
+  {
+   "id": "ch04",
+   "lines": [
+    {
+     "id": 65,
+     "say": "Stocks rarely fall for just one reason. S.P.C.X. was pulled down by four weights.",
+     "pause": 0.5
+    },
+    {
+     "id": 66,
+     "say": "Weight number one: the Cursor deal.",
+     "pause": 0.35
+    },
+    {
+     "id": 67,
+     "say": "On the same day as the peak, SpaceX agreed to buy the A.I. coding company Cursor for sixty billion dollars, paid in stock.",
+     "pause": 0.42
+    },
+    {
+     "id": 68,
+     "say": "Paying in stock means cutting new slices from the same pizza.",
+     "pause": 0.42
+    },
+    {
+     "id": 69,
+     "say": "Every existing slice gets a little smaller. That's called dilution.",
+     "pause": 0.42
+    },
+    {
+     "id": 70,
+     "say": "Within two trading days, SpaceX lost more than six hundred billion dollars in market value.",
+     "pause": 0.55
+    },
+    {
+     "id": 71,
+     "say": "Weight number two: the lock-up.",
+     "pause": 0.35
+    },
+    {
+     "id": 72,
+     "say": "Insiders who owned shares before the I.P.O. usually can't sell them for months.",
+     "pause": 0.42
+    },
+    {
+     "id": "72b",
+     "say": "It's a promise that stops everyone from rushing for the exit on day one.",
+     "pause": 0.42
+    },
+    {
+     "id": 73,
+     "say": "SpaceX's first big unlock was set for August sixth: about nine hundred and eleven million shares.",
+     "pause": 0.42
+    },
+    {
+     "id": "73b",
+     "say": "That was almost seven percent of all SpaceX shares.",
+     "pause": 0.42
+    },
+    {
+     "id": 74,
+     "say": "Worried about a flood of selling, investors pushed the price down ahead of time.",
+     "pause": 0.42
+    },
+    {
+     "id": 75,
+     "say": "On July twenty-seventh, the stock hit a record low, under one hundred and nine dollars.",
+     "pause": 0.42
+    },
+    {
+     "id": 76,
+     "say": "The funny part? On unlock day itself, the stock actually rose six percent.",
+     "pause": 0.42
+    },
+    {
+     "id": "76b",
+     "say": "And over the next five trading days, it climbed about thirty-five percent.",
+     "pause": 0.5
+    },
+    {
+     "id": 77,
+     "say": "The fear did more damage than the flood.",
+     "pause": 0.7
+    },
+    {
+     "id": 78,
+     "say": "Weight number three: spending.",
+     "pause": 0.35
+    },
+    {
+     "id": 79,
+     "say": "In August, SpaceX handed in its first report card as a public company.",
+     "pause": 0.42
+    },
+    {
+     "id": 80,
+     "say": "Revenue grew ninety-two percent, to seven point eight billion dollars. Great!",
+     "pause": 0.42
+    },
+    {
+     "id": 81,
+     "say": "But it spent eighteen point four billion dollars in a single quarter, most of it on A.I.",
+     "pause": 0.42
+    },
+    {
+     "id": "81b",
+     "say": "That's money for giant computer chips and data centers, the kind that power A.I. models.",
+     "pause": 0.42
+    },
+    {
+     "id": 82,
+     "say": "Investors hate surprise bills. The next day, the stock fell more than ten percent.",
+     "pause": 0.42
+    },
+    {
+     "id": 83,
+     "say": "Just before that report, on August third, S.P.C.X. had touched its all-time low: one hundred and four dollars and eighty-three cents.",
+     "pause": 0.42
+    },
+    {
+     "id": 84,
+     "say": "From the peak, that's a fall of about fifty-three percent.",
+     "pause": 0.55
+    },
+    {
+     "id": 85,
+     "say": "Weight number four: the price tag itself.",
+     "pause": 0.35
+    },
+    {
+     "id": 86,
+     "say": "At over two trillion dollars, buyers were paying for a future of Mars trips and space data centers.",
+     "pause": 0.42
+    },
+    {
+     "id": 87,
+     "say": "When a price assumes everything goes right, any bad news hurts more.",
+     "pause": 0.42
+    },
+    {
+     "id": "87b",
+     "say": "It's like a rocket made of glass: beautiful, but one small pebble can crack it.",
+     "pause": 0.42
+    },
+    {
+     "id": 88,
+     "say": "And there was a hidden risk: in the third quarter, one A.I. customer made up more than a third of revenue.",
+     "pause": 0.42
+    },
+    {
+     "id": 89,
+     "say": "Bloomberg reported that customer is Anthropic, and the contract can be canceled with ninety days' notice from early twenty twenty-seven.",
+     "pause": 0.55
+    },
+    {
+     "id": 90,
+     "say": "To be fair, the business kept growing.",
+     "pause": 0.42
+    },
+    {
+     "id": 91,
+     "say": "In October, revenue jumped one hundred and sixty-one percent, and SpaceX made a four point four billion dollar profit.",
+     "pause": 0.42
+    },
+    {
+     "id": 92,
+     "say": "The stock bounced. But by late November, it was back below its one hundred and thirty-five dollar I.P.O. price.",
+     "pause": 0.6
+    },
+    {
+     "id": 93,
+     "say": "A great company and a great stock are not always the same thing.",
+     "pause": 0.0
+    }
+   ]
+  },
+  {
+   "id": "card_ch05",
+   "silence": 2.2
+  },
+  {
+   "id": "ch05",
+   "lines": [
+    {
+     "id": 94,
+     "say": "Remember the queue at the launch pad? The next giants are taking off.",
+     "pause": 0.42
+    },
+    {
+     "id": 95,
+     "say": "On November eighteenth, Anthropic, the A.I. company behind Claude, priced its I.P.O. at eighty-three dollars a share.",
+     "pause": 0.42
+    },
+    {
+     "id": 96,
+     "say": "It raised eighty-one point three billion dollars, more than SpaceX's original seventy-five.",
+     "pause": 0.42
+    },
+    {
+     "id": "96b",
+     "say": "Its shares jumped on day one, then slid back toward the I.P.O. price within days. Sound familiar?",
+     "pause": 0.5
+    },
+    {
+     "id": 97,
+     "say": "So is SpaceX still the biggest I.P.O. ever? It depends how you count.",
+     "pause": 0.42
+    },
+    {
+     "id": 98,
+     "say": "Count SpaceX's greenshoe, and its eighty-five point seven billion is still bigger, at least for now.",
+     "pause": 0.42
+    },
+    {
+     "id": 99,
+     "say": "Count only the starting deal, and Anthropic wins.",
+     "pause": 0.55
+    },
+    {
+     "id": 100,
+     "say": "Next in line: Open A.I., the maker of Chat G.P.T.",
+     "pause": 0.42
+    },
+    {
+     "id": 101,
+     "say": "It has reportedly filed in secret, and is aiming for twenty twenty-seven, with reported valuations above one trillion dollars.",
+     "pause": 0.42
+    },
+    {
+     "id": "101b",
+     "say": "And other big private companies, like Databricks and Stripe, are often named as future candidates, with no dates set.",
+     "pause": 0.6
+    },
+    {
+     "id": 102,
+     "say": "So what can the SpaceX story teach us, before the next mega I.P.O.?",
+     "pause": 0.5
+    },
+    {
+     "id": 103,
+     "say": "One: a first-day pop is not a promise.",
+     "pause": 0.45
+    },
+    {
+     "id": 104,
+     "say": "Two: check the lock-up calendar. More SpaceX shares unlock on December eighth.",
+     "pause": 0.45
+    },
+    {
+     "id": 105,
+     "say": "Three: watch for dilution. New slices make your slice smaller.",
+     "pause": 0.45
+    },
+    {
+     "id": 106,
+     "say": "Four: read the S-one diary, especially the part about what could go wrong.",
+     "pause": 0.45
+    },
+    {
+     "id": 107,
+     "say": "And five: a famous name doesn't make the price cheap.",
+     "pause": 0.6
+    },
+    {
+     "id": 108,
+     "say": "SpaceX is still building rockets, satellites, and A.I. computers.",
+     "pause": 0.42
+    },
+    {
+     "id": 109,
+     "say": "Whether its stock reaches Mars is a different story.",
+     "pause": 0.5
+    },
+    {
+     "id": 110,
+     "say": "Because in the stock market, just like in space, what goes up has to fight gravity.",
+     "pause": 0.8
+    },
+    {
+     "id": 111,
+     "say": "This video is for education, not financial advice.",
+     "pause": 0.0
+    }
+   ]
+  },
+  {
+   "id": "end_card",
+   "silence": 3.0
+  }
+ ]
+}

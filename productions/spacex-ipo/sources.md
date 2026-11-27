@@ -61,6 +61,22 @@ Status legend: ✅ confirmed by ≥2 independent credible outlets · ⚠️ sour
 
 ---
 
+## H. Re-check before locking the full video (2026-11-27, second pass)
+
+| # | Item | Result | Status | Sources |
+|---|---|---|---|---|
+| A16 | Book demand | Orders for **about 4×** the shares on offer (Bloomberg via TechCrunch) | ✅ | [TechCrunch 2026-06-11](https://techcrunch.com/2026/06/11/spacex-officially-prices-shares-at-135-in-the-largest-ipo-ever/) |
+| A17 | Fixed price instead of a range | Amended S-1 on 3 June set a fixed $135. Reuters: "few if any precedents" among major U.S. IPOs | ✅ | [Fortune 2026-06-03](https://fortune.com/2026/06/03/spacex-ipo-share-price-index-funds-valuation-public/) · [Quartz](https://qz.com/spacex-ipo-75-billion-135-share-060326?.tsrc=rss) · [The Star / Reuters](https://www.thestar.com.my/tech/tech-news/2026/06/04/spacex-sets-135-price-for-blockbuster-ipo-upending-wall-street-convention) |
+| C3 ✔ | Unlock day 6 Aug | **+6.1% to a $114.92 close**, after falling nearly 14% the day before (AP) | ✅ | [AP via ABC News](https://abcnews.com/Business/wireStory/spacex-shares-rise-company-insiders-chance-sell-time-135430063) · [Axios 2026-08-07](https://axios.com/2026/08/07/spacex-stocks-unlock-musk) |
+| C6 Δ | Fall after the Q2 report | "As much as 12%" (Barchart) vs. "nearly 14%" on 5 Aug (AP). The script now says "**more than ten percent**" | ⚠️→✅ | as above + [Barchart](https://www.barchart.com/story/news/3664973/spacex-stock-falls-12-after-companys-first-earnings-report) |
+| C10 | Size of the first unlock | 911.5 M shares ≈ **6.9%** of outstanding shares (Koyfin via AP/Reuters) | ✅ | [The Star / Reuters 2026-08-06](https://www.thestar.com.my/tech/tech-news/2026/08/06/spacex-shares-slip-as-lockup-expiry-adds-to-post-ipo-woes) · [ABC/AP](https://abcnews.com/Business/wireStory/spacex-shares-rise-company-insiders-chance-sell-time-135430063) |
+| C11 | After the unlock | "**Soared 35% in just five sessions** after the lockup ended" (Bloomberg) | ✅ (single outlet, Bloomberg) | [Bloomberg Gov](https://news.bgov.com/capital-markets/spacex-passes-first-lockup-expiry-test-with-500-billion-rally) |
+| C8 ✔ | Customer B | 34.5% of Q3 revenue (**10-Q**); the identification as Anthropic is from **Bloomberg (29 Oct)**, not confirmed by either company. Anthropic can cancel with 90 days' notice from early 2027 | ✅ / reporting | [TNW](https://thenextweb.com/news/anthropic-spacex-largest-customer-customer-b) · [TeslaNorth](https://teslanorth.com/2026/10/29/spacex-customer-b-345-q3-reportedly-anthropic/) |
+| C9 ✔ | Price late November | Close on 25 Nov **$127.44**, below $135 | ✅ | [Public.com](https://public.com/stocks/spcx/after-hours) · [HeyGoTrade 2026-11-26](https://www.heygotrade.com/en/news/spacex-spcx-stock-news-november-26-2026/) |
+| D1 ✔ | Anthropic after its IPO | +34% on day 1 (CNBC). In the following days it closed below $83 (TradingView summary). Script: "jumped on day one, then slid back toward the IPO price within days" | ✅ | [CNBC live](https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html) · [TradingView](https://www.tradingview.com/symbols/NASDAQ-ANT/) |
+| D2 Δ | OpenAI | Confidential draft (June), 2027 target (Reuters: CFO Friar; Brockman: "ready in 2027"). The **$1.25 T figure could not be confirmed**. Reports range from $1 T to $1.4 T, so the script says "reported valuations above one trillion dollars" | ⚠️→✅ | [Investing.com / Reuters](https://www.investing.com/news/stock-market-news/openai-seen-preparing-for-2027-ipo-at-1-trln-valuation-reuters-4317757) · [TNW (Brockman)](https://thenextweb.com/news/openai-ipo-2027-brockman-enterprise-revenue) · [Quartz](https://qz.com/openai-ipo-delay-2027-valuation-062626) |
+| D3 | Databricks, Stripe | Only "often named as candidates, with no dates set" (aggregators). No specific claims | 🔎 (worded as a rumour) | [Dealroom](https://dealroom.net/blog/upcoming-recent-ipos) · [IG](https://www.ig.com/en/news-and-trade-ideas/spacex-openai-anthropic-2026-ipo-deals-260520) |
+
 ## E. Generic IPO mechanics (Ch 1–2, no 2026-specific numbers)
 Standard definitions (S-1 registration, roadshow, book-building, underwriters, greenshoe/over-allotment, lock-up of typically ~180 days, IPO "pop"). These are well-established and are not tied to a single source. Lock-up specifics for SpaceX are in C3.
 

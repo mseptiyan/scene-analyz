@@ -1,0 +1,1285 @@
+{
+ "probe": {
+  "video": "h264 High 1920x1080 yuv420p 30/1 fps, 18064 frames",
+  "video_kbps": 8925,
+  "audio": "aac 48000 Hz 2 ch 233 kbps",
+  "duration_s": 602.133,
+  "size_mb": 689.8
+ },
+ "loudness": {
+  "integrated_lufs": -14.0,
+  "true_peak_dbtp": -4.1
+ },
+ "frames_decoded": 18064,
+ "flash_frames": [],
+ "cuts_planned": 123,
+ "cuts_detected_within_1f": 110,
+ "shots": [
+  {
+   "id": "SH010",
+   "start": 0.0,
+   "dur": 2.38,
+   "lead_to_vo": 0.02,
+   "cam_rate": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH020",
+   "start": 2.38,
+   "dur": 3.57,
+   "lead_to_vo": 0.2,
+   "cam_rate": 4.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH030",
+   "start": 5.954,
+   "dur": 2.78,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH040",
+   "start": 8.73,
+   "dur": 2.72,
+   "lead_to_vo": 0.2,
+   "cam_rate": -4.5,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH050",
+   "start": 11.448,
+   "dur": 2.82,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.303,
+   "sat": 0.048,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH060",
+   "start": 14.264,
+   "dur": 8.87,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.73,
+   "lum": 0.327,
+   "sat": 0.438,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH070",
+   "start": 23.139,
+   "dur": 2.02,
+   "lead_to_vo": null,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 60.3
+  },
+  {
+   "id": "SH080",
+   "start": 25.159,
+   "dur": 2.72,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH090",
+   "start": 27.882,
+   "dur": 2.36,
+   "lead_to_vo": 0.2,
+   "cam_rate": 5.0,
+   "lum": 0.718,
+   "sat": 0.574,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH100",
+   "start": 30.239,
+   "dur": 1.52,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH110",
+   "start": 31.759,
+   "dur": 2.28,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.259,
+   "sat": 0.545,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH120",
+   "start": 34.039,
+   "dur": 4.34,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.259,
+   "sat": 0.545,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH130",
+   "start": 38.377,
+   "dur": 2.43,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.259,
+   "sat": 0.545,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH140",
+   "start": 40.804,
+   "dur": 5.19,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.364,
+   "sat": 0.5,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH150",
+   "start": 45.997,
+   "dur": 5.4,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.608,
+   "sat": 0.406,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH160",
+   "start": 51.393,
+   "dur": 5.83,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH180",
+   "start": 57.221,
+   "dur": 2.92,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.364,
+   "sat": 0.5,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH190",
+   "start": 60.138,
+   "dur": 5.38,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH200",
+   "start": 65.516,
+   "dur": 5.79,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.259,
+   "sat": 0.531,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH210",
+   "start": 71.305,
+   "dur": 2.44,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH220",
+   "start": 73.749,
+   "dur": 10.06,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.265,
+   "sat": 0.595,
+   "static_pct": 0.7
+  },
+  {
+   "id": "SH230",
+   "start": 83.807,
+   "dur": 7.68,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH235",
+   "start": 91.491,
+   "dur": 6.97,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.784,
+   "sat": 0.2,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH240",
+   "start": 98.458,
+   "dur": 1.99,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH245",
+   "start": 100.451,
+   "dur": 2.02,
+   "lead_to_vo": null,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 47.5
+  },
+  {
+   "id": "SH250",
+   "start": 102.471,
+   "dur": 4.0,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.784,
+   "sat": 0.204,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH260",
+   "start": 106.473,
+   "dur": 1.77,
+   "lead_to_vo": 0.2,
+   "cam_rate": 4.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH270",
+   "start": 108.246,
+   "dur": 5.41,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.58,
+   "sat": 0.242,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH280",
+   "start": 113.652,
+   "dur": 3.32,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.545,
+   "sat": 0.301,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH290",
+   "start": 116.973,
+   "dur": 7.12,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH295",
+   "start": 124.09,
+   "dur": 4.04,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.597,
+   "sat": 0.272,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH300",
+   "start": 128.131,
+   "dur": 1.67,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.784,
+   "sat": 0.204,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH310",
+   "start": 129.804,
+   "dur": 5.51,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.58,
+   "sat": 0.286,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH320",
+   "start": 135.317,
+   "dur": 3.32,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.509,
+   "sat": 0.275,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH330",
+   "start": 138.635,
+   "dur": 5.65,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.509,
+   "sat": 0.232,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH335",
+   "start": 144.288,
+   "dur": 4.93,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH340",
+   "start": 149.215,
+   "dur": 6.25,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.742,
+   "sat": 0.088,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH360",
+   "start": 155.462,
+   "dur": 5.72,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH370",
+   "start": 161.179,
+   "dur": 6.77,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH375",
+   "start": 167.944,
+   "dur": 5.25,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH380",
+   "start": 173.189,
+   "dur": 4.66,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.284,
+   "sat": 0.394,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH390",
+   "start": 177.849,
+   "dur": 4.77,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.673,
+   "sat": 0.562,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH400",
+   "start": 182.62,
+   "dur": 8.43,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.262,
+   "sat": 0.405,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH410",
+   "start": 191.047,
+   "dur": 6.54,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH420",
+   "start": 197.592,
+   "dur": 4.03,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH430",
+   "start": 201.618,
+   "dur": 3.93,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.441,
+   "sat": 0.245,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH440",
+   "start": 205.549,
+   "dur": 4.53,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH450",
+   "start": 210.075,
+   "dur": 9.34,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH460",
+   "start": 219.41,
+   "dur": 2.43,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH470",
+   "start": 221.837,
+   "dur": 4.83,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH480",
+   "start": 226.663,
+   "dur": 7.32,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH490",
+   "start": 233.98,
+   "dur": 5.67,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.484,
+   "sat": 0.137,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH500",
+   "start": 239.646,
+   "dur": 4.03,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH505",
+   "start": 243.681,
+   "dur": 2.02,
+   "lead_to_vo": null,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 76.3
+  },
+  {
+   "id": "SH510",
+   "start": 245.701,
+   "dur": 3.5,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH520",
+   "start": 249.204,
+   "dur": 6.09,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.268,
+   "sat": 0.537,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH530",
+   "start": 255.289,
+   "dur": 9.32,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH540",
+   "start": 264.607,
+   "dur": 3.42,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH550",
+   "start": 268.031,
+   "dur": 3.87,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH560",
+   "start": 271.898,
+   "dur": 3.41,
+   "lead_to_vo": 0.2,
+   "cam_rate": 5.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH570",
+   "start": 275.313,
+   "dur": 4.54,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.364,
+   "sat": 0.5,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH580",
+   "start": 279.855,
+   "dur": 5.04,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.608,
+   "sat": 0.364,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH590",
+   "start": 284.891,
+   "dur": 4.26,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.522,
+   "sat": 0.16,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH595",
+   "start": 289.15,
+   "dur": 3.67,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH600",
+   "start": 292.818,
+   "dur": 10.52,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH620",
+   "start": 303.338,
+   "dur": 4.49,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.757,
+   "sat": 0.012,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH630",
+   "start": 307.823,
+   "dur": 2.64,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH640",
+   "start": 310.466,
+   "dur": 1.62,
+   "lead_to_vo": 0.2,
+   "cam_rate": 4.0,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH645",
+   "start": 312.087,
+   "dur": 2.02,
+   "lead_to_vo": null,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 59.3
+  },
+  {
+   "id": "SH650",
+   "start": 314.107,
+   "dur": 6.04,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.263,
+   "sat": 0.473,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH660",
+   "start": 320.15,
+   "dur": 2.28,
+   "lead_to_vo": 0.2,
+   "cam_rate": 4.0,
+   "lum": 0.263,
+   "sat": 0.473,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH670",
+   "start": 322.426,
+   "dur": 8.53,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.519,
+   "sat": 0.188,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH680",
+   "start": 330.953,
+   "dur": 4.03,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.718,
+   "sat": 0.574,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH690",
+   "start": 334.983,
+   "dur": 4.39,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH700",
+   "start": 339.371,
+   "dur": 6.52,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH710",
+   "start": 345.891,
+   "dur": 2.09,
+   "lead_to_vo": 0.2,
+   "cam_rate": 4.0,
+   "lum": 0.263,
+   "sat": 0.473,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH720",
+   "start": 347.984,
+   "dur": 5.55,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.259,
+   "sat": 0.545,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH725",
+   "start": 353.537,
+   "dur": 4.44,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.364,
+   "sat": 0.5,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH730",
+   "start": 357.982,
+   "dur": 7.01,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.741,
+   "sat": 0.204,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH735",
+   "start": 364.99,
+   "dur": 3.29,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH740",
+   "start": 368.279,
+   "dur": 4.74,
+   "lead_to_vo": 0.2,
+   "cam_rate": 0.0,
+   "lum": 0.741,
+   "sat": 0.204,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH750",
+   "start": 373.017,
+   "dur": 6.0,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH760",
+   "start": 379.022,
+   "dur": 5.19,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.741,
+   "sat": 0.202,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH765",
+   "start": 384.209,
+   "dur": 4.76,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH770",
+   "start": 388.966,
+   "dur": 2.72,
+   "lead_to_vo": 0.2,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 60.0
+  },
+  {
+   "id": "SH780",
+   "start": 391.685,
+   "dur": 1.98,
+   "lead_to_vo": 0.2,
+   "cam_rate": 4.0,
+   "lum": 0.263,
+   "sat": 0.473,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH790",
+   "start": 393.66,
+   "dur": 5.17,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.519,
+   "sat": 0.215,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH800",
+   "start": 398.832,
+   "dur": 5.26,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH810",
+   "start": 404.092,
+   "dur": 5.55,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH815",
+   "start": 409.646,
+   "dur": 6.05,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.268,
+   "sat": 0.513,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH820",
+   "start": 415.698,
+   "dur": 5.61,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH830",
+   "start": 421.309,
+   "dur": 9.34,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH840",
+   "start": 430.649,
+   "dur": 3.66,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH850",
+   "start": 434.308,
+   "dur": 2.69,
+   "lead_to_vo": 0.2,
+   "cam_rate": 4.0,
+   "lum": 0.263,
+   "sat": 0.473,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH860",
+   "start": 437.0,
+   "dur": 6.66,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.263,
+   "sat": 0.505,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH870",
+   "start": 443.655,
+   "dur": 4.51,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH875",
+   "start": 448.165,
+   "dur": 5.09,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH880",
+   "start": 453.259,
+   "dur": 6.78,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH890",
+   "start": 460.036,
+   "dur": 9.08,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.567,
+   "sat": 0.153,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH900",
+   "start": 469.119,
+   "dur": 2.46,
+   "lead_to_vo": 0.2,
+   "cam_rate": -3.0,
+   "lum": 0.784,
+   "sat": 0.2,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH910",
+   "start": 471.578,
+   "dur": 8.5,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.718,
+   "sat": 0.523,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH920",
+   "start": 480.082,
+   "dur": 7.93,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH930",
+   "start": 488.013,
+   "dur": 3.88,
+   "lead_to_vo": 0.2,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 55.3
+  },
+  {
+   "id": "SH935",
+   "start": 491.898,
+   "dur": 2.02,
+   "lead_to_vo": null,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 50.8
+  },
+  {
+   "id": "SH940",
+   "start": 493.918,
+   "dur": 4.19,
+   "lead_to_vo": 0.2,
+   "cam_rate": 5.97,
+   "lum": 0.327,
+   "sat": 0.444,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH950",
+   "start": 498.106,
+   "dur": 8.01,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.327,
+   "sat": 0.46,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH960",
+   "start": 506.12,
+   "dur": 6.25,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH965",
+   "start": 512.373,
+   "dur": 7.1,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.297,
+   "sat": 0.529,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH970",
+   "start": 519.473,
+   "dur": 4.91,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.513,
+   "sat": 0.153,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH980",
+   "start": 524.379,
+   "dur": 6.71,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.515,
+   "sat": 0.153,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH990",
+   "start": 531.093,
+   "dur": 3.71,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.513,
+   "sat": 0.153,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1000",
+   "start": 534.798,
+   "dur": 4.24,
+   "lead_to_vo": 0.2,
+   "cam_rate": 3.0,
+   "lum": 0.327,
+   "sat": 0.489,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1010",
+   "start": 539.034,
+   "dur": 8.92,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.514,
+   "sat": 0.232,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1015",
+   "start": 547.957,
+   "dur": 8.03,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.0,
+   "lum": 0.327,
+   "sat": 0.442,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1020",
+   "start": 555.991,
+   "dur": 4.85,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.5,
+   "lum": 0.499,
+   "sat": 0.165,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1030",
+   "start": 560.84,
+   "dur": 2.84,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1040",
+   "start": 563.684,
+   "dur": 5.31,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1050",
+   "start": 568.998,
+   "dur": 4.29,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1060",
+   "start": 573.287,
+   "dur": 4.87,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1070",
+   "start": 578.152,
+   "dur": 3.49,
+   "lead_to_vo": 0.2,
+   "cam_rate": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1080",
+   "start": 581.645,
+   "dur": 4.65,
+   "lead_to_vo": 0.2,
+   "cam_rate": -2.5,
+   "lum": 0.784,
+   "sat": 0.204,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1090",
+   "start": 586.291,
+   "dur": 3.31,
+   "lead_to_vo": 0.2,
+   "cam_rate": 0.0,
+   "lum": 0.263,
+   "sat": 0.473,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1100",
+   "start": 589.599,
+   "dur": 5.82,
+   "lead_to_vo": 0.2,
+   "cam_rate": -4.16,
+   "lum": 0.327,
+   "sat": 0.438,
+   "static_pct": 0.0
+  },
+  {
+   "id": "SH1110",
+   "start": 595.421,
+   "dur": 6.69,
+   "lead_to_vo": 0.2,
+   "cam_rate": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "static_pct": 85.4
+  }
+ ],
+ "lead_stats": {
+  "n": 118,
+  "min": 0.2,
+  "max": 0.2,
+  "median": 0.2,
+  "in_0.1_0.3": 118
+ },
+ "cam_rates_moving": [
+  2.0,
+  2.5,
+  2.73,
+  3.0,
+  4.0,
+  4.16,
+  4.5,
+  5.0,
+  5.97
+ ],
+ "dead_hold_shots": [],
+ "dark_shots_lt_0.25_over_3s": [],
+ "sat_median_all_frames": 0.394,
+ "cut_frames_extracted": 369,
+ "final_mix_transcript": {
+  "transcript": "One company sold tiny slices of itself for $135 each. It raised $75 billion. In three days, the stock jumped two thirds. Then it lost over half its value. This is the story of the SpaceX IPO, the biggest the world had ever seen. And the wildest part, the next giants are already lining up. Imagine a company is a giant pizza. Every share is one tiny slice. For 24 years, SpaceX only sold its slices to a private club, founders, employees, and big investors. Everyone else was stuck behind the rope. An IPO, or initial public offering, is the day the doors swing open. The company sells slices to anyone on a public stock market like the NASDAQ. Initial, it's the first time. Public, anyone can buy. Offering, the company is selling. So why would a company open its doors at all? Reason one, money. Selling new slices brings in cash to build things. Reason two, the private club finally gets a way to sell too. That's called cashing out. And SpaceX needed a lot of cash. For its rockets, it's Starlink satellites. And after merging with Elon Musk's AI company, XAI in February, giant AI computers. In 2025, it brought in about $18.7 billion, but still lost nearly $5 billion. Think of a lemonade stand that sells a lot of lemonade, but spends even more building a giant new factory. Building the future is expensive. Going public is like launching a rocket. There's a countdown. Step one, the paperwork. SpaceX sent the regulator, the SEC, a secret draft on April 1st. On May 20th, it made that document public. It's called an S1, and it's basically the company's diary. What it earns, what it owes, and what could go wrong. And anyone can read it for free on the SEC's website. Step two, the roadshow. Starting June 4th, SpaceX and its banks pitched the stock to huge investors. The lead banks were Goldman Sachs and Morgan Stanley. Banks like these are called underwriters. They organize the sale and find the buyers. For that work, the banks get paid a fee, a small slice of the money raised. Step three, the order book. Investors write down how many slices they want and at what price. Normally, a company names a price range. If the book overflows, the price can rise. SpaceX skipped the range and named one fixed price, $135 a share. Even so, big investors asked for about four times more shares than there were. Step four, pricing night. On June 11th, the deal was locked in. SpaceX sold about 500 and 56 million new shares. $135 times 556 million is about $75 billion. The old record belonged to Saudi Aramco. About $29 billion in 2019. SpaceX's deal was more than two and a half times bigger. And this time, regular people got a real seat at the table. Usually, everyday investors get five to 10% of an IPO. SpaceX planned up to 30% and in the end, gave about a fifth to retail buyers through apps like Robinhood, Fidelity, and Schwab. There was one more trick, the green shoe. It lets the bank sell 15% extra shares if demand is hot. Demand was hot. The banks used it and the total grew to about $85.7 billion. One more detail matters for later. Elon Musk kept about four-fifths of the votes. The public could own slices, but Elon still picks the toppings. June 12th, 2026, the opening bell. SBCX opened at $150, already above the IPO price. It climbed as high as $176 that day and closed at 160.95, up 19%. That made SpaceX worth over $2 trillion. Headlines called Elon Musk the world's first trillionaire. A first day jump like this is called an IPO pop. Why does it happen? The IPO price is set before trading starts. If more people want the stock than there are shares to sell, buyers bid the price up. Some say a big pop means the company left money on the table. In other words, maybe it sold its slices too cheaply. But the rocket kept climbing. On June 16th, just the third day of trading, SBCX touched $225.64. That's two-thirds above the IPO price. In three trading days, early buyers felt like geniuses. And then gravity showed up. Stocks rarely fall for just one reason. SBCX was pulled down by four weights. Weight number one, the cursor deal. On the same day as the peak, SpaceX agreed to buy the AI coding company cursor for $60 billion, paid in stock. Paying in stock means cutting new slices from the same pizza. Every existing slice gets a little smaller. That's called dilution. Within two trading days, SpaceX lost more than $600 billion in market value. Weight number two, the lockup. Insiders who owned shares before the IPO usually can't sell them for months. It's a promise that stops everyone from rushing for the exit on day one. SpaceX's first big unlock was set for August 6th, about 911 million shares. That was almost 7% of all SpaceX share. Worried about a flood of selling, investors pushed the price down ahead of time. On July 27th, the stock hit a record low under $109. The funny part, on unlocked day itself, the stock actually rose 6%. And over the next five trading days, it climbed about 35%. The fear did more damage than the flood. Weight number three, spending. In August, SpaceX handed in its first report card as a public company. Revenue grew 92% to $7.8 billion. Great, but it spent $18.4 billion in a single quarter, most of it on AI. That's money for giant computer chips and data centers, the kind that power AI models. Investors hate surprise bills. The next day, the stock fell more than 10%. Just before that report, on August 3rd, SBCX had touched its all-time low, $104.83. From the peak, that's a fall of about 53%. Weight number four, the price tag itself. At over $2 trillion, buyers were paying for a future of Mars trips and space data centers. When a price assumes everything goes right, any bad news hurts more. It's like a rocket made of glass. Beautiful, but one small pebble can crack it. And there was a hidden risk. In the third quarter, one AI customer made up more than a third of revenue. Bloomberg reported that customer is anthropic, and the contract can be canceled with 90 days notice from early 2027. To be fair, the business kept growing. In October, revenue jumped 161%, and SpaceX made a $4.4 billion profit. The stock bounced, but by late November, it was back below its $135 IPO price. A great company and a great stock are not always the same thing. Remember the queue at the launch pad? The next giants are taking off. On November 18th, Anthropic, the AI company behind Claude, priced its IPO at $83 a share. It raised $81.3 billion, more than SpaceX's original 75. Its shares jumped on day one, then slid back toward the IPO price within days. Sound familiar? So is SpaceX still the biggest IPO ever? It depends how you count. Count SpaceX's green shoe, and its 85.7 billion is still bigger, at least for now. Count only the starting deal, and anthropic wins. Next in line, OpenAI, the maker of chat GPT. It has reportedly filed in secret and is aiming for 2027 with reported valuations above $1 trillion, and other big private companies like Databricks and Stripe are often named as future candidates with no date set. So what can the SpaceX story teach us before the next mega IPO? One, a first day pop is not a promise. Two, check the lockup calendar. More SpaceX shares unlock on December 8th. Three, watch for dilution. New slices make your slice smaller. Four, read the S1 diary, especially the part about what could go wrong. And five, a famous name doesn't make the price cheap. SpaceX is still building rockets, satellites, and AI computers. Whether its stock reaches Mars is a different story. Because in the stock market, just like in space, what goes up has to fight gravity. This video is for education, not financial advice.",
+  "word_match_ratio": 0.879
+ }
+}
