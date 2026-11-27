@@ -1,0 +1,9 @@
+kokoro>=0.9.4
+soundfile
+pyloudnorm
+faster-whisper
+pycairo
+numpy
+pillow
+scipy
+fonttools

@@ -1,0 +1,308 @@
+{
+ "probe": {
+  "video": "h264 High 1920x1080 yuv420p 30/1 fps, 1789 frames",
+  "video_kbps": 10340,
+  "audio": "aac 48000 Hz 2 ch 225 kbps",
+  "duration_s": 59.633,
+  "size_mb": 78.8
+ },
+ "loudness": {
+  "integrated_lufs": -14.0,
+  "true_peak_dbtp": -4.3
+ },
+ "cuts_detected": [
+  174,
+  257,
+  334,
+  335,
+  336,
+  337,
+  338,
+  339,
+  340,
+  341,
+  342,
+  343,
+  414,
+  674,
+  735,
+  883,
+  930,
+  1039,
+  1119,
+  1191,
+  1343,
+  1502,
+  1700
+ ],
+ "cuts_planned_frames": [
+  70,
+  174,
+  256,
+  334,
+  413,
+  674,
+  735,
+  814,
+  883,
+  929,
+  1039,
+  1118,
+  1191,
+  1342,
+  1501,
+  1699
+ ],
+ "cut_match": [
+  [
+   70,
+   174
+  ],
+  [
+   174,
+   174
+  ],
+  [
+   256,
+   257
+  ],
+  [
+   334,
+   334
+  ],
+  [
+   413,
+   414
+  ],
+  [
+   674,
+   674
+  ],
+  [
+   735,
+   735
+  ],
+  [
+   814,
+   883
+  ],
+  [
+   883,
+   883
+  ],
+  [
+   929,
+   930
+  ],
+  [
+   1039,
+   1039
+  ],
+  [
+   1118,
+   1119
+  ],
+  [
+   1191,
+   1191
+  ],
+  [
+   1342,
+   1343
+  ],
+  [
+   1501,
+   1502
+  ],
+  [
+   1699,
+   1700
+  ]
+ ],
+ "flash_frames": [],
+ "shots": [
+  {
+   "id": "SH010",
+   "start": 0.0,
+   "dur": 2.32,
+   "lead_to_vo": 0.02,
+   "cam_rate_pct_s": 3.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH020",
+   "start": 2.32,
+   "dur": 3.48,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 4.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH030",
+   "start": 5.8,
+   "dur": 2.75,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH040",
+   "start": 8.547,
+   "dur": 2.58,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": -4.5,
+   "lum": 0.164,
+   "sat": 0.725,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH050",
+   "start": 11.13,
+   "dur": 2.65,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 3.0,
+   "lum": 0.303,
+   "sat": 0.048,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH060",
+   "start": 13.779,
+   "dur": 8.69,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": -2.79,
+   "lum": 0.248,
+   "sat": 0.475,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH070",
+   "start": 22.466,
+   "dur": 2.02,
+   "lead_to_vo": null,
+   "cam_rate_pct_s": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "frames_without_change_pct": 61.0
+  },
+  {
+   "id": "SH080",
+   "start": 24.486,
+   "dur": 2.64,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 2.0,
+   "lum": 0.719,
+   "sat": 0.656,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH090",
+   "start": 27.121,
+   "dur": 2.3,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 5.0,
+   "lum": 0.719,
+   "sat": 0.656,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH100",
+   "start": 29.422,
+   "dur": 1.56,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 2.5,
+   "lum": 0.987,
+   "sat": 0.008,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH110",
+   "start": 30.98,
+   "dur": 3.64,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 3.0,
+   "lum": 0.25,
+   "sat": 0.626,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH120",
+   "start": 34.62,
+   "dur": 2.66,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": -3.0,
+   "lum": 0.25,
+   "sat": 0.626,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH130",
+   "start": 37.276,
+   "dur": 2.42,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 2.5,
+   "lum": 0.25,
+   "sat": 0.626,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH140",
+   "start": 39.698,
+   "dur": 5.05,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 3.0,
+   "lum": 0.369,
+   "sat": 0.603,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH150",
+   "start": 44.747,
+   "dur": 5.29,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": -3.0,
+   "lum": 0.611,
+   "sat": 0.488,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH160",
+   "start": 50.037,
+   "dur": 6.6,
+   "lead_to_vo": 0.2,
+   "cam_rate_pct_s": 2.0,
+   "lum": 0.987,
+   "sat": 0.008,
+   "frames_without_change_pct": 0.0
+  },
+  {
+   "id": "SH170",
+   "start": 56.634,
+   "dur": 3.0,
+   "lead_to_vo": null,
+   "cam_rate_pct_s": 0.0,
+   "lum": 0.0,
+   "sat": 0.0,
+   "frames_without_change_pct": 83.9
+  }
+ ],
+ "outline_runs_SH010_A": [
+  12,
+  9
+ ],
+ "outline_runs_SH010_Z": [
+  9,
+  77,
+  7
+ ],
+ "final_mix_transcript": {
+  "transcript": "One company sold tiny slices of itself for $135 each. It raised $75 billion. In three days, the stock jumped two thirds. Then it lost over half its value. This is the story of the SpaceX IPO, the biggest the world had ever seen. And the wildest part, the next giants are already lining up. Imagine a company is a giant pizza. Every share is one tiny slice. For 24 years, SpaceX only sold its slices to a private club. Founders, employees, and big investors. Everyone else was stuck behind the rope. An IPO, or initial public offering, is the day the doors swing open. The company sells slices to anyone on a public stock market like the NASDAQ. Initial, it's the first time. Public, anyone can buy. Offering, the company is selling.",
+  "word_match_ratio": 0.949
+ }
+}

@@ -1,0 +1,8 @@
+# large media: renders and audio are reproducible from the code + script
+*.mp4
+*.mov
+*.wav
+productions/*/renders/
+productions/*/audio/
+__pycache__/
+*.pyc

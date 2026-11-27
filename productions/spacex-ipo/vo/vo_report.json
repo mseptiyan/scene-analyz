@@ -1,0 +1,29 @@
+{
+ "voice": "am_michael",
+ "speed": 1.03,
+ "chapters": {
+  "ch00_hook": {
+   "integrated_lufs": -14.2,
+   "true_peak_dbtp": -1.2,
+   "duration_s": 22.47,
+   "words": 59,
+   "wpm_speech_only": 172.5,
+   "wpm_incl_pauses": 157.6
+  },
+  "ch01_pilot": {
+   "integrated_lufs": -14.2,
+   "true_peak_dbtp": -1.2,
+   "duration_s": 31.92,
+   "words": 78,
+   "wpm_speech_only": 170.1,
+   "wpm_incl_pauses": 146.6
+  }
+ },
+ "master": {
+  "integrated_lufs": -14.3,
+  "true_peak_dbtp": -1.2
+ },
+ "whisper_text": "One company sold tiny slices of itself for $135 each. It raised $75 billion. In three days, the stock jumped two thirds. Then it lost over half its value. This is the story of the SpaceX IPO, the biggest the world had ever seen. In the wildest part, the next giants are already lining up. Imagine a company is a giant pizza. Every share is one tiny slice. For 24 years, SpaceX only sold its slices to a private club, founders, employees and big investors. Everyone else was stuck behind the rope. An IPO, or initial public offering, is the day the doors swing open. The company sells slices to anyone, on a public stock market like the NASDAQ. Initial it's the first time. Public anyone can buy. Offering the company is selling.",
+ "words_from_whisper": 127,
+ "words_total": 137
+}

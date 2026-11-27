@@ -1,0 +1,38 @@
+{
+  "voice": "am_michael",
+  "speed": 1.03,
+  "lang_code": "a",
+  "sample_rate": 24000,
+  "default_pause": 0.42,
+  "chapters": [
+    {
+      "id": "ch00_hook",
+      "lines": [
+        {"id": 1, "say": "One company sold tiny slices of itself, for one hundred and thirty-five dollars each.", "pause": 0.30},
+        {"id": 2, "say": "It raised seventy-five billion dollars.", "pause": 0.34},
+        {"id": 3, "say": "In three days, the stock jumped two-thirds.", "pause": 0.30},
+        {"id": 4, "say": "Then, it lost over half its value.", "pause": 0.55},
+        {"id": 5, "say": "This is the story of the SpaceX I.P.O., the biggest the world had ever seen.", "pause": 0.45},
+        {"id": 6, "say": "And the wildest part? The next giants are already lining up.", "pause": 0.0}
+      ]
+    },
+    {
+      "id": "card_ch01",
+      "silence": 2.2
+    },
+    {
+      "id": "ch01_pilot",
+      "lines": [
+        {"id": 7, "say": "Imagine a company is a giant pizza.", "pause": 0.35},
+        {"id": 8, "say": "Every share is one tiny slice.", "pause": 0.45},
+        {"id": "9-11", "say": "For twenty-four years, SpaceX only sold its slices to a private club: founders, employees, and big investors.", "pause": 0.40},
+        {"id": 12, "say": "Everyone else was stuck behind the rope.", "pause": 0.50},
+        {"id": 13, "say": "An I.P.O., or initial public offering, is the day the doors swing open.", "pause": 0.40},
+        {"id": 14, "say": "The company sells slices to anyone, on a public stock market, like the Nasdaq.", "pause": 0.50},
+        {"id": 15, "say": "Initial: it's the first time.", "pause": 0.30},
+        {"id": 16, "say": "Public: anyone can buy.", "pause": 0.30},
+        {"id": 17, "say": "Offering: the company is selling.", "pause": 1.2}
+      ]
+    }
+  ]
+}

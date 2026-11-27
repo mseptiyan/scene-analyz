@@ -1,0 +1,114 @@
+[
+ {
+  "id": 1,
+  "say": "One company sold tiny slices of itself, for one hundred and thirty-five dollars each.",
+  "start": 0.0,
+  "end": 5.68,
+  "chapter": "ch00_hook"
+ },
+ {
+  "id": 2,
+  "say": "It raised seventy-five billion dollars.",
+  "start": 5.98,
+  "end": 8.387,
+  "chapter": "ch00_hook"
+ },
+ {
+  "id": 3,
+  "say": "In three days, the stock jumped two-thirds.",
+  "start": 8.727,
+  "end": 11.01,
+  "chapter": "ch00_hook"
+ },
+ {
+  "id": 4,
+  "say": "Then, it lost over half its value.",
+  "start": 11.31,
+  "end": 13.409,
+  "chapter": "ch00_hook"
+ },
+ {
+  "id": 5,
+  "say": "This is the story of the SpaceX I.P.O., the biggest the world had ever seen.",
+  "start": 13.959,
+  "end": 18.68,
+  "chapter": "ch00_hook"
+ },
+ {
+  "id": 6,
+  "say": "And the wildest part? The next giants are already lining up.",
+  "start": 19.13,
+  "end": 22.466,
+  "chapter": "ch00_hook"
+ },
+ {
+  "id": "card_ch01",
+  "say": "",
+  "start": 22.466,
+  "end": 24.666,
+  "chapter": "card_ch01"
+ },
+ {
+  "id": 7,
+  "say": "Imagine a company is a giant pizza.",
+  "start": 24.666,
+  "end": 26.951,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": 8,
+  "say": "Every share is one tiny slice.",
+  "start": 27.301,
+  "end": 29.152,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": "9-11",
+  "say": "For twenty-four years, SpaceX only sold its slices to a private club: founders, employees, and big investors.",
+  "start": 29.602,
+  "end": 37.056,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": 12,
+  "say": "Everyone else was stuck behind the rope.",
+  "start": 37.456,
+  "end": 39.378,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": 13,
+  "say": "An I.P.O., or initial public offering, is the day the doors swing open.",
+  "start": 39.878,
+  "end": 44.527,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": 14,
+  "say": "The company sells slices to anyone, on a public stock market, like the Nasdaq.",
+  "start": 44.927,
+  "end": 49.717,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": 15,
+  "say": "Initial: it's the first time.",
+  "start": 50.217,
+  "end": 51.826,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": 16,
+  "say": "Public: anyone can buy.",
+  "start": 52.126,
+  "end": 53.545,
+  "chapter": "ch01_pilot"
+ },
+ {
+  "id": 17,
+  "say": "Offering: the company is selling.",
+  "start": 53.845,
+  "end": 55.384,
+  "chapter": "ch01_pilot"
+ }
+]

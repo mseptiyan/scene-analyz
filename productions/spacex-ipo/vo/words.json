@@ -1,0 +1,1098 @@
+[
+ {
+  "i": 0,
+  "word": "One",
+  "line": 1,
+  "start": 0.02,
+  "end": 0.22,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 1,
+  "word": "company",
+  "line": 1,
+  "start": 0.22,
+  "end": 0.56,
+  "src": "whisper"
+ },
+ {
+  "i": 2,
+  "word": "sold",
+  "line": 1,
+  "start": 0.56,
+  "end": 0.94,
+  "src": "whisper"
+ },
+ {
+  "i": 3,
+  "word": "tiny",
+  "line": 1,
+  "start": 0.94,
+  "end": 1.46,
+  "src": "whisper"
+ },
+ {
+  "i": 4,
+  "word": "slices",
+  "line": 1,
+  "start": 1.46,
+  "end": 1.9,
+  "src": "whisper"
+ },
+ {
+  "i": 5,
+  "word": "of",
+  "line": 1,
+  "start": 1.9,
+  "end": 2.08,
+  "src": "whisper"
+ },
+ {
+  "i": 6,
+  "word": "itself,",
+  "line": 1,
+  "start": 2.08,
+  "end": 2.52,
+  "src": "whisper"
+ },
+ {
+  "i": 7,
+  "word": "for",
+  "line": 1,
+  "start": 2.52,
+  "end": 3.16,
+  "src": "whisper"
+ },
+ {
+  "i": 8,
+  "word": "one",
+  "line": 1,
+  "start": 3.16,
+  "end": 4.36,
+  "src": "interp"
+ },
+ {
+  "i": 9,
+  "word": "hundred",
+  "line": 1,
+  "start": 3.16,
+  "end": 4.36,
+  "src": "interp"
+ },
+ {
+  "i": 10,
+  "word": "and",
+  "line": 1,
+  "start": 3.16,
+  "end": 4.36,
+  "src": "interp"
+ },
+ {
+  "i": 11,
+  "word": "thirty-five",
+  "line": 1,
+  "start": 3.16,
+  "end": 4.36,
+  "src": "interp"
+ },
+ {
+  "i": 12,
+  "word": "dollars",
+  "line": 1,
+  "start": 3.16,
+  "end": 4.36,
+  "src": "interp"
+ },
+ {
+  "i": 13,
+  "word": "each.",
+  "line": 1,
+  "start": 4.36,
+  "end": 5.48,
+  "src": "whisper"
+ },
+ {
+  "i": 14,
+  "word": "It",
+  "line": 2,
+  "start": 6.0,
+  "end": 6.1,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 15,
+  "word": "raised",
+  "line": 2,
+  "start": 6.1,
+  "end": 6.46,
+  "src": "whisper"
+ },
+ {
+  "i": 16,
+  "word": "seventy-five",
+  "line": 2,
+  "start": 6.46,
+  "end": 7.26,
+  "src": "interp"
+ },
+ {
+  "i": 17,
+  "word": "billion",
+  "line": 2,
+  "start": 7.26,
+  "end": 7.64,
+  "src": "whisper"
+ },
+ {
+  "i": 18,
+  "word": "dollars.",
+  "line": 2,
+  "start": 7.64,
+  "end": 8.387,
+  "src": "interp"
+ },
+ {
+  "i": 19,
+  "word": "In",
+  "line": 3,
+  "start": 8.747,
+  "end": 8.86,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 20,
+  "word": "three",
+  "line": 3,
+  "start": 8.86,
+  "end": 9.1,
+  "src": "whisper"
+ },
+ {
+  "i": 21,
+  "word": "days,",
+  "line": 3,
+  "start": 9.1,
+  "end": 9.44,
+  "src": "whisper"
+ },
+ {
+  "i": 22,
+  "word": "the",
+  "line": 3,
+  "start": 9.56,
+  "end": 9.64,
+  "src": "whisper"
+ },
+ {
+  "i": 23,
+  "word": "stock",
+  "line": 3,
+  "start": 9.64,
+  "end": 9.9,
+  "src": "whisper"
+ },
+ {
+  "i": 24,
+  "word": "jumped",
+  "line": 3,
+  "start": 9.9,
+  "end": 10.14,
+  "src": "whisper"
+ },
+ {
+  "i": 25,
+  "word": "two-thirds.",
+  "line": 3,
+  "start": 10.14,
+  "end": 11.01,
+  "src": "interp"
+ },
+ {
+  "i": 26,
+  "word": "Then,",
+  "line": 4,
+  "start": 11.33,
+  "end": 11.58,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 27,
+  "word": "it",
+  "line": 4,
+  "start": 11.58,
+  "end": 11.82,
+  "src": "whisper"
+ },
+ {
+  "i": 28,
+  "word": "lost",
+  "line": 4,
+  "start": 11.82,
+  "end": 12.08,
+  "src": "whisper"
+ },
+ {
+  "i": 29,
+  "word": "over",
+  "line": 4,
+  "start": 12.08,
+  "end": 12.48,
+  "src": "whisper"
+ },
+ {
+  "i": 30,
+  "word": "half",
+  "line": 4,
+  "start": 12.48,
+  "end": 12.72,
+  "src": "whisper"
+ },
+ {
+  "i": 31,
+  "word": "its",
+  "line": 4,
+  "start": 12.72,
+  "end": 12.94,
+  "src": "whisper"
+ },
+ {
+  "i": 32,
+  "word": "value.",
+  "line": 4,
+  "start": 12.94,
+  "end": 13.34,
+  "src": "whisper"
+ },
+ {
+  "i": 33,
+  "word": "This",
+  "line": 5,
+  "start": 13.979,
+  "end": 14.14,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 34,
+  "word": "is",
+  "line": 5,
+  "start": 14.14,
+  "end": 14.32,
+  "src": "whisper"
+ },
+ {
+  "i": 35,
+  "word": "the",
+  "line": 5,
+  "start": 14.32,
+  "end": 14.5,
+  "src": "whisper"
+ },
+ {
+  "i": 36,
+  "word": "story",
+  "line": 5,
+  "start": 14.5,
+  "end": 14.84,
+  "src": "whisper"
+ },
+ {
+  "i": 37,
+  "word": "of",
+  "line": 5,
+  "start": 14.84,
+  "end": 15.06,
+  "src": "whisper"
+ },
+ {
+  "i": 38,
+  "word": "the",
+  "line": 5,
+  "start": 15.06,
+  "end": 15.16,
+  "src": "whisper"
+ },
+ {
+  "i": 39,
+  "word": "SpaceX",
+  "line": 5,
+  "start": 15.16,
+  "end": 15.6,
+  "src": "whisper"
+ },
+ {
+  "i": 40,
+  "word": "IPO,",
+  "line": 5,
+  "start": 15.6,
+  "end": 16.28,
+  "src": "whisper"
+ },
+ {
+  "i": 41,
+  "word": "the",
+  "line": 5,
+  "start": 16.88,
+  "end": 16.96,
+  "src": "whisper"
+ },
+ {
+  "i": 42,
+  "word": "biggest",
+  "line": 5,
+  "start": 16.96,
+  "end": 17.28,
+  "src": "whisper"
+ },
+ {
+  "i": 43,
+  "word": "the",
+  "line": 5,
+  "start": 17.28,
+  "end": 17.5,
+  "src": "whisper"
+ },
+ {
+  "i": 44,
+  "word": "world",
+  "line": 5,
+  "start": 17.5,
+  "end": 17.76,
+  "src": "whisper"
+ },
+ {
+  "i": 45,
+  "word": "had",
+  "line": 5,
+  "start": 17.76,
+  "end": 17.96,
+  "src": "whisper"
+ },
+ {
+  "i": 46,
+  "word": "ever",
+  "line": 5,
+  "start": 17.96,
+  "end": 18.26,
+  "src": "whisper"
+ },
+ {
+  "i": 47,
+  "word": "seen.",
+  "line": 5,
+  "start": 18.26,
+  "end": 18.66,
+  "src": "whisper"
+ },
+ {
+  "i": 48,
+  "word": "And",
+  "line": 6,
+  "start": 19.15,
+  "end": 19.26,
+  "src": "interp+pinned"
+ },
+ {
+  "i": 49,
+  "word": "the",
+  "line": 6,
+  "start": 19.26,
+  "end": 19.38,
+  "src": "whisper"
+ },
+ {
+  "i": 50,
+  "word": "wildest",
+  "line": 6,
+  "start": 19.38,
+  "end": 19.82,
+  "src": "whisper"
+ },
+ {
+  "i": 51,
+  "word": "part?",
+  "line": 6,
+  "start": 19.82,
+  "end": 20.2,
+  "src": "whisper"
+ },
+ {
+  "i": 52,
+  "word": "The",
+  "line": 6,
+  "start": 20.6,
+  "end": 20.72,
+  "src": "whisper"
+ },
+ {
+  "i": 53,
+  "word": "next",
+  "line": 6,
+  "start": 20.72,
+  "end": 20.96,
+  "src": "whisper"
+ },
+ {
+  "i": 54,
+  "word": "giants",
+  "line": 6,
+  "start": 20.96,
+  "end": 21.3,
+  "src": "whisper"
+ },
+ {
+  "i": 55,
+  "word": "are",
+  "line": 6,
+  "start": 21.3,
+  "end": 21.54,
+  "src": "whisper"
+ },
+ {
+  "i": 56,
+  "word": "already",
+  "line": 6,
+  "start": 21.54,
+  "end": 21.88,
+  "src": "whisper"
+ },
+ {
+  "i": 57,
+  "word": "lining",
+  "line": 6,
+  "start": 21.88,
+  "end": 22.2,
+  "src": "whisper"
+ },
+ {
+  "i": 58,
+  "word": "up.",
+  "line": 6,
+  "start": 22.2,
+  "end": 22.466,
+  "src": "whisper"
+ },
+ {
+  "i": 59,
+  "word": "Imagine",
+  "line": 7,
+  "start": 24.686,
+  "end": 25.06,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 60,
+  "word": "a",
+  "line": 7,
+  "start": 25.06,
+  "end": 25.3,
+  "src": "whisper"
+ },
+ {
+  "i": 61,
+  "word": "company",
+  "line": 7,
+  "start": 25.3,
+  "end": 25.62,
+  "src": "whisper"
+ },
+ {
+  "i": 62,
+  "word": "is",
+  "line": 7,
+  "start": 25.62,
+  "end": 26.02,
+  "src": "whisper"
+ },
+ {
+  "i": 63,
+  "word": "a",
+  "line": 7,
+  "start": 26.02,
+  "end": 26.18,
+  "src": "whisper"
+ },
+ {
+  "i": 64,
+  "word": "giant",
+  "line": 7,
+  "start": 26.18,
+  "end": 26.46,
+  "src": "whisper"
+ },
+ {
+  "i": 65,
+  "word": "pizza.",
+  "line": 7,
+  "start": 26.46,
+  "end": 26.88,
+  "src": "whisper"
+ },
+ {
+  "i": 66,
+  "word": "Every",
+  "line": 8,
+  "start": 27.321,
+  "end": 27.54,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 67,
+  "word": "share",
+  "line": 8,
+  "start": 27.54,
+  "end": 27.82,
+  "src": "whisper"
+ },
+ {
+  "i": 68,
+  "word": "is",
+  "line": 8,
+  "start": 27.82,
+  "end": 28.02,
+  "src": "whisper"
+ },
+ {
+  "i": 69,
+  "word": "one",
+  "line": 8,
+  "start": 28.02,
+  "end": 28.28,
+  "src": "whisper"
+ },
+ {
+  "i": 70,
+  "word": "tiny",
+  "line": 8,
+  "start": 28.28,
+  "end": 28.58,
+  "src": "whisper"
+ },
+ {
+  "i": 71,
+  "word": "slice.",
+  "line": 8,
+  "start": 28.58,
+  "end": 28.98,
+  "src": "whisper"
+ },
+ {
+  "i": 72,
+  "word": "For",
+  "line": "9-11",
+  "start": 29.622,
+  "end": 29.7,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 73,
+  "word": "twenty-four",
+  "line": "9-11",
+  "start": 29.7,
+  "end": 30.16,
+  "src": "interp"
+ },
+ {
+  "i": 74,
+  "word": "years,",
+  "line": "9-11",
+  "start": 30.16,
+  "end": 30.64,
+  "src": "whisper"
+ },
+ {
+  "i": 75,
+  "word": "SpaceX",
+  "line": "9-11",
+  "start": 31.18,
+  "end": 31.38,
+  "src": "whisper"
+ },
+ {
+  "i": 76,
+  "word": "only",
+  "line": "9-11",
+  "start": 31.38,
+  "end": 31.78,
+  "src": "whisper"
+ },
+ {
+  "i": 77,
+  "word": "sold",
+  "line": "9-11",
+  "start": 31.78,
+  "end": 32.16,
+  "src": "whisper"
+ },
+ {
+  "i": 78,
+  "word": "its",
+  "line": "9-11",
+  "start": 32.16,
+  "end": 32.38,
+  "src": "whisper"
+ },
+ {
+  "i": 79,
+  "word": "slices",
+  "line": "9-11",
+  "start": 32.38,
+  "end": 32.68,
+  "src": "whisper"
+ },
+ {
+  "i": 80,
+  "word": "to",
+  "line": "9-11",
+  "start": 32.68,
+  "end": 33.02,
+  "src": "whisper"
+ },
+ {
+  "i": 81,
+  "word": "a",
+  "line": "9-11",
+  "start": 33.02,
+  "end": 33.14,
+  "src": "whisper"
+ },
+ {
+  "i": 82,
+  "word": "private",
+  "line": "9-11",
+  "start": 33.14,
+  "end": 33.38,
+  "src": "whisper"
+ },
+ {
+  "i": 83,
+  "word": "club:",
+  "line": "9-11",
+  "start": 33.38,
+  "end": 33.74,
+  "src": "whisper"
+ },
+ {
+  "i": 84,
+  "word": "founders,",
+  "line": "9-11",
+  "start": 34.82,
+  "end": 34.87,
+  "src": "whisper"
+ },
+ {
+  "i": 85,
+  "word": "employees,",
+  "line": "9-11",
+  "start": 35.18,
+  "end": 35.74,
+  "src": "whisper"
+ },
+ {
+  "i": 86,
+  "word": "and",
+  "line": "9-11",
+  "start": 35.74,
+  "end": 36.1,
+  "src": "whisper"
+ },
+ {
+  "i": 87,
+  "word": "big",
+  "line": "9-11",
+  "start": 36.1,
+  "end": 36.32,
+  "src": "whisper"
+ },
+ {
+  "i": 88,
+  "word": "investors.",
+  "line": "9-11",
+  "start": 36.32,
+  "end": 36.82,
+  "src": "whisper"
+ },
+ {
+  "i": 89,
+  "word": "Everyone",
+  "line": 12,
+  "start": 37.476,
+  "end": 37.84,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 90,
+  "word": "else",
+  "line": 12,
+  "start": 37.84,
+  "end": 38.1,
+  "src": "whisper"
+ },
+ {
+  "i": 91,
+  "word": "was",
+  "line": 12,
+  "start": 38.1,
+  "end": 38.32,
+  "src": "whisper"
+ },
+ {
+  "i": 92,
+  "word": "stuck",
+  "line": 12,
+  "start": 38.32,
+  "end": 38.6,
+  "src": "whisper"
+ },
+ {
+  "i": 93,
+  "word": "behind",
+  "line": 12,
+  "start": 38.6,
+  "end": 39.0,
+  "src": "whisper"
+ },
+ {
+  "i": 94,
+  "word": "the",
+  "line": 12,
+  "start": 39.0,
+  "end": 39.16,
+  "src": "whisper"
+ },
+ {
+  "i": 95,
+  "word": "rope.",
+  "line": 12,
+  "start": 39.16,
+  "end": 39.378,
+  "src": "whisper"
+ },
+ {
+  "i": 96,
+  "word": "An",
+  "line": 13,
+  "start": 39.898,
+  "end": 40.02,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 97,
+  "word": "IPO,",
+  "line": 13,
+  "start": 40.02,
+  "end": 40.58,
+  "src": "whisper"
+ },
+ {
+  "i": 98,
+  "word": "or",
+  "line": 13,
+  "start": 40.88,
+  "end": 41.08,
+  "src": "whisper"
+ },
+ {
+  "i": 99,
+  "word": "initial",
+  "line": 13,
+  "start": 41.08,
+  "end": 41.32,
+  "src": "whisper"
+ },
+ {
+  "i": 100,
+  "word": "public",
+  "line": 13,
+  "start": 41.32,
+  "end": 41.72,
+  "src": "whisper"
+ },
+ {
+  "i": 101,
+  "word": "offering,",
+  "line": 13,
+  "start": 41.72,
+  "end": 42.28,
+  "src": "whisper"
+ },
+ {
+  "i": 102,
+  "word": "is",
+  "line": 13,
+  "start": 42.38,
+  "end": 42.84,
+  "src": "whisper"
+ },
+ {
+  "i": 103,
+  "word": "the",
+  "line": 13,
+  "start": 42.84,
+  "end": 43.02,
+  "src": "whisper"
+ },
+ {
+  "i": 104,
+  "word": "day",
+  "line": 13,
+  "start": 43.02,
+  "end": 43.24,
+  "src": "whisper"
+ },
+ {
+  "i": 105,
+  "word": "the",
+  "line": 13,
+  "start": 43.24,
+  "end": 43.48,
+  "src": "whisper"
+ },
+ {
+  "i": 106,
+  "word": "doors",
+  "line": 13,
+  "start": 43.48,
+  "end": 43.76,
+  "src": "whisper"
+ },
+ {
+  "i": 107,
+  "word": "swing",
+  "line": 13,
+  "start": 43.76,
+  "end": 44.12,
+  "src": "whisper"
+ },
+ {
+  "i": 108,
+  "word": "open.",
+  "line": 13,
+  "start": 44.12,
+  "end": 44.52,
+  "src": "whisper"
+ },
+ {
+  "i": 109,
+  "word": "The",
+  "line": 14,
+  "start": 44.947,
+  "end": 45.06,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 110,
+  "word": "company",
+  "line": 14,
+  "start": 45.06,
+  "end": 45.36,
+  "src": "whisper"
+ },
+ {
+  "i": 111,
+  "word": "sells",
+  "line": 14,
+  "start": 45.36,
+  "end": 45.76,
+  "src": "whisper"
+ },
+ {
+  "i": 112,
+  "word": "slices",
+  "line": 14,
+  "start": 45.76,
+  "end": 46.2,
+  "src": "whisper"
+ },
+ {
+  "i": 113,
+  "word": "to",
+  "line": 14,
+  "start": 46.2,
+  "end": 46.52,
+  "src": "whisper"
+ },
+ {
+  "i": 114,
+  "word": "anyone,",
+  "line": 14,
+  "start": 46.52,
+  "end": 47.0,
+  "src": "whisper"
+ },
+ {
+  "i": 115,
+  "word": "on",
+  "line": 14,
+  "start": 47.38,
+  "end": 47.64,
+  "src": "whisper"
+ },
+ {
+  "i": 116,
+  "word": "a",
+  "line": 14,
+  "start": 47.64,
+  "end": 47.76,
+  "src": "whisper"
+ },
+ {
+  "i": 117,
+  "word": "public",
+  "line": 14,
+  "start": 47.76,
+  "end": 48.02,
+  "src": "whisper"
+ },
+ {
+  "i": 118,
+  "word": "stock",
+  "line": 14,
+  "start": 48.02,
+  "end": 48.4,
+  "src": "whisper"
+ },
+ {
+  "i": 119,
+  "word": "market,",
+  "line": 14,
+  "start": 48.4,
+  "end": 48.7,
+  "src": "whisper"
+ },
+ {
+  "i": 120,
+  "word": "like",
+  "line": 14,
+  "start": 48.7,
+  "end": 49.06,
+  "src": "whisper"
+ },
+ {
+  "i": 121,
+  "word": "the",
+  "line": 14,
+  "start": 49.06,
+  "end": 49.22,
+  "src": "whisper"
+ },
+ {
+  "i": 122,
+  "word": "Nasdaq.",
+  "line": 14,
+  "start": 49.22,
+  "end": 49.717,
+  "src": "whisper"
+ },
+ {
+  "i": 123,
+  "word": "Initial:",
+  "line": 15,
+  "start": 50.237,
+  "end": 50.62,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 124,
+  "word": "it's",
+  "line": 15,
+  "start": 50.62,
+  "end": 50.94,
+  "src": "whisper"
+ },
+ {
+  "i": 125,
+  "word": "the",
+  "line": 15,
+  "start": 50.94,
+  "end": 51.08,
+  "src": "whisper"
+ },
+ {
+  "i": 126,
+  "word": "first",
+  "line": 15,
+  "start": 51.08,
+  "end": 51.34,
+  "src": "whisper"
+ },
+ {
+  "i": 127,
+  "word": "time.",
+  "line": 15,
+  "start": 51.34,
+  "end": 51.76,
+  "src": "whisper"
+ },
+ {
+  "i": 128,
+  "word": "Public:",
+  "line": 16,
+  "start": 52.146,
+  "end": 52.46,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 129,
+  "word": "anyone",
+  "line": 16,
+  "start": 52.46,
+  "end": 52.88,
+  "src": "whisper"
+ },
+ {
+  "i": 130,
+  "word": "can",
+  "line": 16,
+  "start": 52.88,
+  "end": 53.18,
+  "src": "whisper"
+ },
+ {
+  "i": 131,
+  "word": "buy.",
+  "line": 16,
+  "start": 53.18,
+  "end": 53.54,
+  "src": "whisper"
+ },
+ {
+  "i": 132,
+  "word": "Offering:",
+  "line": 17,
+  "start": 53.865,
+  "end": 54.34,
+  "src": "whisper+pinned"
+ },
+ {
+  "i": 133,
+  "word": "the",
+  "line": 17,
+  "start": 54.34,
+  "end": 54.52,
+  "src": "whisper"
+ },
+ {
+  "i": 134,
+  "word": "company",
+  "line": 17,
+  "start": 54.52,
+  "end": 54.82,
+  "src": "whisper"
+ },
+ {
+  "i": 135,
+  "word": "is",
+  "line": 17,
+  "start": 54.82,
+  "end": 55.02,
+  "src": "whisper"
+ },
+ {
+  "i": 136,
+  "word": "selling.",
+  "line": 17,
+  "start": 55.02,
+  "end": 55.32,
+  "src": "whisper"
+ }
+]

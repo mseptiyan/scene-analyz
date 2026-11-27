@@ -1,0 +1,60 @@
+1
+00:00:00,000 --> 00:00:05,830
+One company sold tiny slices of itself, for $135 each.
+
+2
+00:00:05,980 --> 00:00:08,537
+It raised $75 billion.
+
+3
+00:00:08,727 --> 00:00:11,160
+In three days, the stock jumped two-thirds.
+
+4
+00:00:11,310 --> 00:00:13,559
+Then, it lost over half its value.
+
+5
+00:00:13,959 --> 00:00:18,830
+This is the story of the SpaceX IPO, the biggest the world had ever seen.
+
+6
+00:00:19,130 --> 00:00:22,616
+And the wildest part? The next giants are already lining up.
+
+7
+00:00:24,666 --> 00:00:27,101
+Imagine a company is a giant pizza.
+
+8
+00:00:27,301 --> 00:00:29,302
+Every share is one tiny slice.
+
+9
+00:00:29,602 --> 00:00:37,206
+For 24 years, SpaceX only sold its slices to a private club: founders, employees, and big investors.
+
+10
+00:00:37,456 --> 00:00:39,528
+Everyone else was stuck behind the rope.
+
+11
+00:00:39,878 --> 00:00:44,677
+An IPO, or initial public offering, is the day the doors swing open.
+
+12
+00:00:44,927 --> 00:00:49,867
+The company sells slices to anyone, on a public stock market, like the Nasdaq.
+
+13
+00:00:50,217 --> 00:00:51,976
+Initial: it's the first time.
+
+14
+00:00:52,126 --> 00:00:53,695
+Public: anyone can buy.
+
+15
+00:00:53,845 --> 00:00:55,534
+Offering: the company is selling.
+
